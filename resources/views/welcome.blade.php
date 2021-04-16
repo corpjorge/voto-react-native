@@ -5,8 +5,7 @@
         <title>Oficina</title>
         <link rel="stylesheet" href="/css/app.css" />
     </head>
-    <body>
-        <h1></h1>
+    <body>     
         <script src="/js/app.js"></script>
     </body>
 </html>

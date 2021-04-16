@@ -28,4 +28,10 @@ class PQR extends Model
         'archivo_cierre', 
         'observacion',
     ];
+
+    protected $casts = [
+        'created_at' => 'datetime:Y-m-d',
+        'fecha_atendido' => 'datetime:Y-m-d',
+        'fecha_cierre' => 'datetime:Y-m-d',
+    ];
 }

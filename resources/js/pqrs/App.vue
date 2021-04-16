@@ -25,8 +25,7 @@
 					<input type="number" class="form-control form-control-sm" :class="errors.cedula ? 'is-invalid' : '' " id="cedula" aria-describedby="cedula" v-model="pqr.cedula">
 					<div class="invalid-feedback">{{ errors.cedula ? errors.cedula[0] : ''}}</div>
 				</div>
-			</div>
-			
+			</div>			
 
 			<div class="mb-3 row">
 				<label for="celular" class="col-sm-1 col-form-label">Celular:</label>
@@ -48,10 +47,7 @@
 				<label for="oficinas" class="col-sm-1 col-form-label">Oficinas:</label>
 				<div class="col-sm-10">
 					<select class="form-select form-select-sm" :class="errors.oficinas ? 'is-invalid' : '' "  aria-label="oficinas" v-model="pqr.oficinas">
-					<option value=""></option>
-					<option value="1">One</option>
-					<option value="2">Two</option>
-					<option value="3">Three</option>
+					  <option v-for="oficina in oficinas" :key="oficina.name" :value="oficina.nombre">{{oficina.nombre}}</option>
 				</select>
 				<div class="invalid-feedback">{{ errors.oficinas ? errors.oficinas[0] : ''}}</div>
 				</div>
@@ -60,11 +56,13 @@
 			<div class="mb-3 row">
 				<label for="tipo" class="col-sm-1 col-form-label">Tipo :</label>
 				<div class="col-sm-10">
-					<select class="form-select form-select-sm" :class="errors.tipo ? 'is-invalid' : '' "  aria-label="tipo"  v-model="pqr.tipo">
-						<option value=""> </option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
+					<select class="form-select form-select-sm" :class="errors.tipo ? 'is-invalid' : '' "  aria-label="tipo"  v-model="pqr.tipo">						 
+						<option value="">Seleccione el tipo</option>
+						<option value="Peticion">Petición</option>
+						<option value="Queja">Queja</option>
+						<option value="Reclamo">Reclamo</option>
+						<option value="Solicitud">Solicitud</option>
+						<option value="Felicitacion">Felicitación</option>                        
 					</select>
 					<div class="invalid-feedback">{{ errors.tipo ? errors.tipo[0] : ''}}</div>
 				</div>
@@ -73,7 +71,7 @@
 			<div class="mb-3 row">
 				<label for="descripcion" class="col-sm-1 col-form-label">Descripción:</label>
 				<div class="col-sm-10">
-					<textarea class="form-control form-control-sm" :class="errors.descripcion ? 'is-invalid' : '' " id="descripcion" placeholder=" example textarea"  v-model="pqr.descripcion" ></textarea>
+					<textarea class="form-control form-control-sm" :class="errors.descripcion ? 'is-invalid' : '' " id="descripcion" v-model="pqr.descripcion" ></textarea>
 					<div class="invalid-feedback">{{ errors.descripcion ? errors.descripcion[0] : ''}}</div>
 				</div>
 			</div>
@@ -89,7 +87,7 @@
 			<div class="mb-3 row">
 				<label for="archivo2" class="col-sm-1 col-form-label">Archivo2:</label>
 				<div class="col-sm-10">
-					<input type="file" class="form-control form-control-sm" :class="errors.archivo2 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo2">
+					<input type="file" accept=".pdf, .jpg, .gif, .doc" class="form-control form-control-sm" :class="errors.archivo2 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo2">
 					<div class="invalid-feedback">{{ errors.archivo2 ? errors.archivo2[0] : ''}}</div>
 				</div>
 			</div> 	
@@ -118,9 +116,13 @@ export default {
         return {           		
           pqr: {},		
 		  errors: {},
-		  enviando: null
+		  enviando: null,
+		  oficinas: {}
         }
     },
+	created() {
+		this.pqrsOFicinas()
+	},
 	methods: {
 		archivo1(event) {
 			this.pqr.archivo1 = event.target.files[0];
@@ -140,14 +142,10 @@ export default {
 			data.append('archivo1', this.pqr.archivo1 ? this.pqr.archivo1 : '')
 			data.append('archivo2', this.pqr.archivo2 ? this.pqr.archivo2 : '') 
 
-			await axios.post('/pqrs', data)
-			.then(() => {
-				this.enviando = true;
-							
-			})
-			.catch(error => {				 
-				this.errors = error.response.data.errors;
-			})
+			await axios.post('/pqrs', data).then(() => { this.enviando = true; }).catch(error => { this.errors = error.response.data.errors; })
+		},
+		async pqrsOFicinas(){
+			await axios.get('/pqrs-oficinas').then( response => { this.oficinas = response.data; })
 		}
 	 
 	}

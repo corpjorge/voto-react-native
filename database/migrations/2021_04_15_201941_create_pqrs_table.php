@@ -29,7 +29,8 @@ class CreatePQRSTable extends Migration
             $table->string('fecha_cierre')->nullable();
             $table->string('archivo_antendido')->nullable();
             $table->string('archivo_cierre')->nullable();
-            $table->text('observacion')->nullable();        
+            $table->text('observacion_antendido')->nullable();
+            $table->text('observacion_cierre')->nullable();        
             $table->timestamps();
         });
     }

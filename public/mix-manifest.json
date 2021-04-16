@@ -1,3 +1,5 @@
 {
-    "/js/pqrs/main.js": "/js/pqrs/main.js"
+    "/js/pqrs/main.js": "/js/pqrs/main.js",
+    "/js/clasificados/main.js": "/js/clasificados/main.js",
+    "/js/eventos/main.js": "/js/eventos/main.js"
 }

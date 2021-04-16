@@ -35,8 +35,8 @@ class PQRController extends Controller
         $archivo2 = $request->file('archivo2')->getClientOriginalName();
         $archivo2 = \Str::random(3) . $archivo2;
 
-        Storage::putFileAs('public/document', new File($request->archivo1), $archivo1);
-        Storage::putFileAs('public/document', new File($request->archivo2), $archivo2); 
+        Storage::putFileAs('public/pqrs', new File($request->archivo1), $archivo1);
+        Storage::putFileAs('public/pqrs', new File($request->archivo2), $archivo2); 
 
         $pqr->fill($request->all());
         $pqr->archivo1 = $archivo1;

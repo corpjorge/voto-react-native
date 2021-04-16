@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App'; 
+import router from './router';
 
-createApp(App).mount('#adminEventos')
+createApp(App).use(router).mount('#adminEventos')

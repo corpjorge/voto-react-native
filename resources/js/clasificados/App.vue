@@ -1,5 +1,5 @@
 <template>
-<div class="col-lg-8 mx-auto p-3 py-md-5">
+<div class="col-lg-10 mx-auto p-3 py-md-5">
   <header class="d-flex align-items-center mb-2 border-bottom">   
 	<h3>Clasificados</h3>     
   </header>  

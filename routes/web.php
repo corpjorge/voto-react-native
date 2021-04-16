@@ -40,6 +40,7 @@ Route::delete('/admin/clasificados/eliminar/{id}', [AdminClasificadoController::
 
 
 Route::get('/admin/eventos', [AdminEventoController::class, 'vista']);
-Route::get('/admin/eventos/datos', [AdminPqrController::class, 'datos']);
-Route::get('/admin/eventos/inscritos', [AdminPqrController::class, 'inscritos']);
-Route::get('/admin/eventos/editar', [AdminPqrController::class, 'editar']);
+Route::get('/admin/eventos/datos', [AdminEventoController::class, 'datos']);
+Route::get('/admin/eventos/inscritos', [AdminEventoController::class, 'inscritos']);
+Route::post('/admin/eventos/crear', [AdminEventoController::class, 'crear']);
+Route::delete('/admin/eventos/eliminar', [AdminEventoController::class, 'eliminar']);

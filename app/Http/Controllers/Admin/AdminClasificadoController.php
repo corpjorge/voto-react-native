@@ -4,10 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Clasificado;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Http\File;
-use Carbon\Carbon;
+use App\Models\Clasificado; 
 
 class AdminClasificadoController extends Controller
 {

@@ -34,6 +34,12 @@ Route::post('/admin/pqrs/cerrar/{id}', [AdminPqrController::class, 'cerrar']);
 
 
 Route::get('/admin/clasificados', [AdminClasificadoController::class, 'vista']);
+Route::get('/admin/clasificados/datos', [AdminClasificadoController::class, 'datos']);
+Route::post('/admin/clasificados/activar/{id}', [AdminClasificadoController::class, 'activar']);
+Route::delete('/admin/clasificados/eliminar/{id}', [AdminClasificadoController::class, 'eliminar']); 
 
 
 Route::get('/admin/eventos', [AdminEventoController::class, 'vista']);
+Route::get('/admin/eventos/datos', [AdminPqrController::class, 'datos']);
+Route::get('/admin/eventos/inscritos', [AdminPqrController::class, 'inscritos']);
+Route::get('/admin/eventos/editar', [AdminPqrController::class, 'editar']);

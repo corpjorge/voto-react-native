@@ -18,4 +18,8 @@ class Clasificado extends Model
         'descripcion',
         'archivo1',
     ];
+
+    protected $casts = [
+        'created_at' => 'datetime:Y-m-d',         
+    ];
 }

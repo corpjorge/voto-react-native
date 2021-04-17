@@ -12,7 +12,7 @@ const routes = [
         component: () => import('./Datos'),         
     },    
     {
-        path: '/editar/:id',
+        path: '/editar/:evento',
         name: 'Editar',
         component: () => import('./Editar'),
     },

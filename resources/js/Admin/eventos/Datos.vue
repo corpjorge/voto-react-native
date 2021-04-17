@@ -1,37 +1,43 @@
 <template>
   <div class="col-lg-12 mx-auto p-3 py-md-5">
     <header class="d-flex align-items-center mb-2 border-bottom">   
-    <h3>Clasificados</h3>     
-    </header>    
+    <h3>Eventos</h3>     
+    </header> 
+ 
+    <form class="row g-3" @submit.prevent="crear">       
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Nombre nuevo evento</label>
+        <input type="text" class="form-control" id="evento" placeholder="Nombre nuevo evento" v-model="evento.nombre" required>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Crear evento</button>
+      </div>
+
+      <div class="col-auto">
+        <div v-if="enviando" class="alert alert-success alert-dismissible fade show" role="alert" style="padding-bottom: 4px; padding-top: 2px;">
+           Evento creado
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="padding-top: 2px; padding-bottom: 14px;" @click="close"></button>
+        </div>
+      </div>
+ 
+    </form>
+    
+    <hr>
+
     <div class="row ">
       <div class="table-responsive-lg">      
         <table class="table">
           <thead>
             <tr>              
-              <th scope="col">Datos:</th>
-              <th scope="col">tipo</th>
-              <th scope="col">Fecha</th>
-              <th scope="col">titulo</th>
-              <th scope="col">descripcion</th>
-              <th scope="col">archivo1</th>
-              <th scope="col">Estado</th>              
+              <th scope="col">Nombre:</th>               
+              <th scope="col">Ver</th>              
             </tr>
           </thead>
           <tbody>
             <tr v-for="dato in datos" :key="dato.id">             
-              <td>{{ dato.nombre }} / {{ dato.celular }} / {{ dato.correo }} / </td>
-              <td>{{ dato.tipo}}</td>
-              <td>{{ dato.created_at }}</td>
-              <td>{{ dato.titulo }}</td>
-              <td>{{ dato.descripcion }}</td> 
-              <td><a :href="'/storage/clasificados/'+dato.archivo1"  target="_black" >img</a></td>              
+              <td>{{ dato.nombre }}</td>                          
               <td>
-                  <label class="switch">
-                    <input type="checkbox" v-model="dato.estado" @click="activarClasificado(dato.id, dato.estado)" >
-                    <span class="slider round"></span>
-                  </label>                   
-                  <br>
-                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" :data-bs-target="'#eliminar'+dato.id">
+                  <button style="margin-right: 7px;" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" :data-bs-target="'#eliminar'+dato.id">
                     <ion-icon name="trash-outline"></ion-icon>
                   </button>
                   <div class="modal fade" :id="'eliminar'+dato.id" tabindex="-1" aria-labelledby="eliminar" aria-hidden="true">
@@ -42,15 +48,18 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          Eliminar clasificado : {{dato.titulo}}
+                          Eliminar clasificado : {{dato.nombre}}
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="eliminarClasificado(dato.id)">Eliminar</button>
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="eliminarEvento(dato.id)">Eliminar</button>
                         </div>
                       </div>
                     </div>
-                  </div>                                                             
+                  </div>  
+                  <router-link  type="button" class="btn btn-success btn-sm"  :to="{ name: 'Editar', params: { evento: dato.nombre } }">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </router-link>                                                            
               </td>
             </tr>  
           </tbody>
@@ -98,8 +107,11 @@ import axios from 'axios';
 export default {
     name: 'Datos',
 	data() {
-        return {           		
-          datos: null,          
+        return {
+          evento: {},           		
+          datos: null, 
+          errors: {}, 
+          enviando: null,        
           paginacion: {
             prev_page_url: null,
             next_page_url: null
@@ -110,74 +122,13 @@ export default {
 		this.obtenerDatos()  
 	},  
 	methods: {
-		async obtenerDatos(){ await axios.get('/admin/clasificados/datos').then(response => { this.datos = response.data.data; this.paginacion = response.data;}) },	
-    async pagina(url){ await axios.get(url).then(response => { this.datos = response.data.data; this.paginacion = response.data; }) },
-    async activarClasificado(id, estado) { await axios.post('/admin/clasificados/activar/'+id, {estado: estado}) },
-    async eliminarClasificado(id) { await axios.delete('/admin/clasificados/eliminar/'+id).then(() => { this.obtenerDatos(); }) }
-    
+    close(){
+       this.enviando = false;
+    },
+		async obtenerDatos(){ await axios.get('/admin/eventos/datos').then(response => { this.datos = response.data.data; this.paginacion = response.data;}) },	
+    async pagina(url){ await axios.get(url).then(response => { this.datos = response.data.data; this.paginacion = response.data; }) },  
+    async eliminarEvento(id) { await axios.delete('/admin/eventos/eliminar/'+id).then(() => { this.obtenerDatos(); }) },
+    async crear() { await axios.post('/admin/eventos/crear', this.evento).then(() => { ;this.enviando = true; this.obtenerDatos(); this.evento = {} }).catch(error => { this.errors = error.response.data.errors; }) }    
 	}
 };
-</script>
-
-
-<style>
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 46px;
-  height: 17px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 16px;
-  left: 3px;
-  bottom: 1px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #4ddc51;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #4ddc51;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-</style>
+</script> 

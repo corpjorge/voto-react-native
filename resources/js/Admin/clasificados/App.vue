@@ -31,7 +31,7 @@
                     <span class="slider round"></span>
                   </label>                   
                   <br>
-                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" :data-bs-target="'#eliminar'+dato.id">
+                  <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" :data-bs-target="'#eliminar'+dato.id">
                     <ion-icon name="trash-outline"></ion-icon>
                   </button>
                   <div class="modal fade" :id="'eliminar'+dato.id" tabindex="-1" aria-labelledby="eliminar" aria-hidden="true">

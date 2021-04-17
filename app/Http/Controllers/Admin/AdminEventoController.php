@@ -15,20 +15,20 @@ class AdminEventoController extends Controller
     }
 
     public function datos()
-    {
-        return EventoLista::all();
+    {    
+        return EventoLista::orderBy('created_at', 'desc')->paginate(20);
     }
 
     public function inscritos($evento)
-    {
-        return Evento::where('evento', $evento)->get();
+    {       
+        return Evento::where('evento', $evento)->paginate(20);
     }
 
     public function crear(Request $request)
     {
         $request->validate([ 'nombre' => 'required' ]);
 
-        $evento = new Evento;            
+        $evento = new EventoLista;            
         $evento->nombre = $request->nombre;
         $evento->save();
     }

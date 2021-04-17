@@ -14791,7 +14791,7 @@ var routes = [{
     return __webpack_require__.e(/*! import() */ "resources_js_admin_eventos_Datos_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./Datos */ "./resources/js/admin/eventos/Datos.vue"));
   }
 }, {
-  path: '/editar/:id',
+  path: '/editar/:evento',
   name: 'Editar',
   component: function component() {
     return __webpack_require__.e(/*! import() */ "resources_js_admin_eventos_Editar_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./Editar */ "./resources/js/admin/eventos/Editar.vue"));
@@ -18469,7 +18469,7 @@ function compileToFunction(template, options) {
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
+/******/ 			// no module.id needed
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};

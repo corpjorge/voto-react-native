@@ -16867,7 +16867,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     /* PROPS */
     , ["onUpdate:modelValue", "onClick"]), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelCheckbox, dato.estado]]), _hoisted_8]), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
       type: "button",
-      "class": "btn btn-primary btn-sm",
+      "class": "btn btn-danger btn-sm",
       "data-bs-toggle": "modal",
       "data-bs-target": '#eliminar' + dato.id
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {

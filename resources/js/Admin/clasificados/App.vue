@@ -24,7 +24,13 @@
               <td>{{ dato.created_at }}</td>
               <td>{{ dato.titulo }}</td>
               <td>{{ dato.descripcion }}</td> 
-              <td><a :href="'/storage/clasificados/'+dato.archivo1"  target="_black" >img</a></td>              
+              <td> 
+                  <div v-for="foto in dato.archivo1"> 
+                    <template v-if="foto" >
+                      <a :href="'/storage/clasificados/'+foto"  target="_black" >img</a>   
+                    </template>                   
+                  </div>                   
+              </td>              
               <td>
                   <label class="switch">
                     <input type="checkbox" v-model="dato.estado" @click="activarClasificado(dato.id, dato.estado)" >
@@ -105,7 +111,7 @@ export default {
             next_page_url: null
           }
         }
-    },
+  },
 	mounted() {
 		this.obtenerDatos()  
 	},  

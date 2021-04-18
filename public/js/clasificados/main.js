@@ -16621,6 +16621,12 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
     archivo2: function archivo2(event) {
       this.clasificado.archivo2 = event.target.files[0];
     },
+    archivo3: function archivo3(event) {
+      this.clasificado.archivo3 = event.target.files[0];
+    },
+    archivo4: function archivo4(event) {
+      this.clasificado.archivo4 = event.target.files[0];
+    },
     crearClasificado: function crearClasificado() {
       var _this = this;
 
@@ -16638,14 +16644,17 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
                 data.append('titulo', _this.clasificado.titulo ? _this.clasificado.titulo : '');
                 data.append('descripcion', _this.clasificado.descripcion ? _this.clasificado.descripcion : '');
                 data.append('archivo1', _this.clasificado.archivo1 ? _this.clasificado.archivo1 : '');
-                _context.next = 10;
+                data.append('archivo2', _this.clasificado.archivo2 ? _this.clasificado.archivo2 : '');
+                data.append('archivo3', _this.clasificado.archivo3 ? _this.clasificado.archivo3 : '');
+                data.append('archivo4', _this.clasificado.archivo4 ? _this.clasificado.archivo4 : '');
+                _context.next = 13;
                 return axios.post('/clasificados', data).then(function () {
                   _this.enviando = true;
                 })["catch"](function (error) {
                   _this.errors = error.response.data.errors;
                 });
 
-              case 10:
+              case 13:
               case "end":
                 return _context.stop();
             }
@@ -16833,7 +16842,7 @@ var _hoisted_32 = {
 var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "archivo1",
   "class": "col-sm-1 col-form-label"
-}, "Foto:", -1
+}, "Foto 1:", -1
 /* HOISTED */
 );
 
@@ -16843,8 +16852,59 @@ var _hoisted_34 = {
 var _hoisted_35 = {
   "class": "invalid-feedback"
 };
+var _hoisted_36 = {
+  "class": "mb-3 row"
+};
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "archivo1",
+  "class": "col-sm-1 col-form-label"
+}, "Foto 2:", -1
+/* HOISTED */
+);
+
+var _hoisted_38 = {
+  "class": "col-sm-10"
+};
+var _hoisted_39 = {
+  "class": "invalid-feedback"
+};
+var _hoisted_40 = {
+  "class": "mb-3 row"
+};
+
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "archivo1",
+  "class": "col-sm-1 col-form-label"
+}, "Foto 3:", -1
+/* HOISTED */
+);
+
+var _hoisted_42 = {
+  "class": "col-sm-10"
+};
+var _hoisted_43 = {
+  "class": "invalid-feedback"
+};
+var _hoisted_44 = {
+  "class": "mb-3 row"
+};
+
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "archivo1",
+  "class": "col-sm-1 col-form-label"
+}, "Foto 4:", -1
+/* HOISTED */
+);
+
+var _hoisted_46 = {
+  "class": "col-sm-10"
+};
+var _hoisted_47 = {
+  "class": "invalid-feedback"
+};
+
+var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "d-grid gap-2 col-6 mx-auto"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   "class": "btn btn-primary",
@@ -16859,7 +16919,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "needs-validation",
     autocomplete: "off",
     novalidate: "",
-    onSubmit: _cache[8] || (_cache[8] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+    onSubmit: _cache[11] || (_cache[11] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.crearClasificado && $options.crearClasificado.apply($options, arguments);
     }, ["prevent"]))
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
@@ -16951,7 +17011,43 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS, HYDRATE_EVENTS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo1 ? $data.errors.archivo1[0] : ''), 1
   /* TEXT */
-  )])]), _hoisted_36], 32
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_36, [_hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+    type: "file",
+    accept: ".jpg",
+    "class": ["form-control form-control-sm", $data.errors.archivo2 ? 'is-invalid' : ''],
+    "aria-label": "file example",
+    onChange: _cache[8] || (_cache[8] = function () {
+      return $options.archivo2 && $options.archivo2.apply($options, arguments);
+    })
+  }, null, 34
+  /* CLASS, HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo2 ? $data.errors.archivo2[0] : ''), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_40, [_hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+    type: "file",
+    accept: ".jpg",
+    "class": ["form-control form-control-sm", $data.errors.archivo3 ? 'is-invalid' : ''],
+    "aria-label": "file example",
+    onChange: _cache[9] || (_cache[9] = function () {
+      return $options.archivo3 && $options.archivo3.apply($options, arguments);
+    })
+  }, null, 34
+  /* CLASS, HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo3 ? $data.errors.archivo3[0] : ''), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+    type: "file",
+    accept: ".jpg",
+    "class": ["form-control form-control-sm", $data.errors.archivo4 ? 'is-invalid' : ''],
+    "aria-label": "file example",
+    onChange: _cache[10] || (_cache[10] = function () {
+      return $options.archivo4 && $options.archivo4.apply($options, arguments);
+    })
+  }, null, 34
+  /* CLASS, HYDRATE_EVENTS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo4 ? $data.errors.archivo4[0] : ''), 1
+  /* TEXT */
+  )])]), _hoisted_48], 32
   /* HYDRATE_EVENTS */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])])]);
 }

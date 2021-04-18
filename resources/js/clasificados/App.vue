@@ -63,12 +63,36 @@
 			</div>
 
 			<div class="mb-3 row">
-				<label for="archivo1" class="col-sm-1 col-form-label">Foto:</label>
+				<label for="archivo1" class="col-sm-1 col-form-label">Foto 1:</label>
 				<div class="col-sm-10">
 					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo1 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo1">
 					<div class="invalid-feedback">{{ errors.archivo1 ? errors.archivo1[0] : ''}}</div>
 				</div>
 			</div> 	 
+
+			<div class="mb-3 row">
+				<label for="archivo1" class="col-sm-1 col-form-label">Foto 2:</label>
+				<div class="col-sm-10">
+					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo2 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo2">
+					<div class="invalid-feedback">{{ errors.archivo2 ? errors.archivo2[0] : ''}}</div>
+				</div>
+			</div> 	
+
+			<div class="mb-3 row">
+				<label for="archivo1" class="col-sm-1 col-form-label">Foto 3:</label>
+				<div class="col-sm-10">
+					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo3 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo3">
+					<div class="invalid-feedback">{{ errors.archivo3 ? errors.archivo3[0] : ''}}</div>
+				</div>
+			</div> 	
+
+			<div class="mb-3 row">
+				<label for="archivo1" class="col-sm-1 col-form-label">Foto 4:</label>
+				<div class="col-sm-10">
+					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo4 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo4">
+					<div class="invalid-feedback">{{ errors.archivo4 ? errors.archivo4[0] : ''}}</div>
+				</div>
+			</div> 	
 
 			<div class="d-grid gap-2 col-6 mx-auto">
 				<button class="btn btn-primary" type="submit" >Enviar</button>		 
@@ -104,6 +128,12 @@ export default {
 		archivo2(event) {
 			this.clasificado.archivo2 = event.target.files[0]
 		},
+		archivo3(event) {
+			this.clasificado.archivo3 = event.target.files[0]
+		},
+		archivo4(event) {
+			this.clasificado.archivo4 = event.target.files[0]
+		},
 		async crearClasificado(){
 			const data = new FormData();
 			data.append('nombre', this.clasificado.nombre ? this.clasificado.nombre : '')	 
@@ -113,6 +143,9 @@ export default {
 			data.append('titulo', this.clasificado.titulo ? this.clasificado.titulo : '')			
 			data.append('descripcion', this.clasificado.descripcion ? this.clasificado.descripcion : '')  
 			data.append('archivo1', this.clasificado.archivo1 ? this.clasificado.archivo1 : '')	 
+			data.append('archivo2', this.clasificado.archivo2 ? this.clasificado.archivo2 : '')	 
+			data.append('archivo3', this.clasificado.archivo3 ? this.clasificado.archivo3 : '')	 
+			data.append('archivo4', this.clasificado.archivo4 ? this.clasificado.archivo4 : '')	 
 
 			await axios.post('/clasificados', data).then(() => { this.enviando = true; }).catch(error => { this.errors = error.response.data.errors; })
 		},

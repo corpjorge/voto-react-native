@@ -20,6 +20,7 @@ class Clasificado extends Model
     ];
 
     protected $casts = [
-        'created_at' => 'datetime:Y-m-d',         
+        'created_at' => 'datetime:Y-m-d',
+        'archivo1' => 'json',    
     ];
 }

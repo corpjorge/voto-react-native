@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PQRController;
 use App\Http\Controllers\pqrsOficinaController;
 use App\Http\Controllers\ClasificadoController;
@@ -11,6 +12,7 @@ use App\Http\Controllers\Admin\AdminEventoController;
 use App\Http\Controllers\Admin\AdminClasificadoController;
 use App\Http\Controllers\Admin\AdminPqrController;
 
+Route::get('/', HomeController::class);
 
 Route::get('/pqrs', [PQRController::class, 'vista']);
 Route::post('/pqrs', [PQRController::class, 'crear']);

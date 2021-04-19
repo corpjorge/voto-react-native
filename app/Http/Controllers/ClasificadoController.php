@@ -61,4 +61,18 @@ class ClasificadoController extends Controller
         $clasificado->archivo1 = $fotos;
         $clasificado->save();
     }
+
+
+    public function vistaListaClasificados()
+    {
+        return view('listaClasificados');
+    }
+
+    public function ListaClasificados(Clasificado $clasificado, $tipo)
+    {
+        return $clasificado->where('estado', 'true')->where('tipo', $tipo)->get();
+    }
+
+
+
 }

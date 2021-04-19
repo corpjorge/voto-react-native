@@ -1,6 +1,7 @@
 {
     "/js/pqrs/main.js": "/js/pqrs/main.js",
     "/js/clasificados/main.js": "/js/clasificados/main.js",
+    "/js/clasificadosLista/main.js": "/js/clasificadosLista/main.js",
     "/js/eventos/main.js": "/js/eventos/main.js",
     "/js/admin/pqrs/main.js": "/js/admin/pqrs/main.js",
     "/js/admin/clasificados/main.js": "/js/admin/clasificados/main.js",

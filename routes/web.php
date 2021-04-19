@@ -22,6 +22,8 @@ Route::get('/pqrs-oficinas', [pqrsOficinaController::class, 'oficinas']);
 Route::get('/clasificados', [ClasificadoController::class, 'vista']);
 Route::post('/clasificados', [ClasificadoController::class, 'crear']);
 Route::get('/clasificados-tipo', [ClasificadoTipoController::class, 'tipos']);
+Route::get('/clasificado', [ClasificadoController::class, 'vistaListaClasificados']);
+Route::get('/clasificado/{tipo}', [ClasificadoController::class, 'ListaClasificados']);
 
 Route::get('/eventos', [EventoController::class, 'vista']);
 Route::post('/eventos', [EventoController::class, 'crear']);

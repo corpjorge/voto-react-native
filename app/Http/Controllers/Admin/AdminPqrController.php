@@ -5,29 +5,34 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\PQR;
+use App\Models\User;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\File;
 use Carbon\Carbon;
 
 class AdminPqrController extends Controller
-{
+{ 
     public function vista()
     {
+        $this->authorize('admin', User::class);        
         return view('admin.pqrs');
     }
 
     public function datos()
     {
+        $this->authorize('admin', User::class);
         return PQR::orderBy('created_at', 'desc')->paginate(20);
     }
 
     public function editar($id)
     {
+        $this->authorize('admin', User::class);
         return PQR::find($id);
     }
 
     public function atender(Request $request, $id)
     {
+        $this->authorize('admin', User::class);
         $request->validate([
             'observacion_antendido' => 'required',           
             'archivo_antendido' => 'required',          
@@ -47,6 +52,7 @@ class AdminPqrController extends Controller
 
     public function cerrar(Request $request, $id)
     {
+        $this->authorize('admin', User::class);
         $request->validate([
             'observacion_cierre' => 'required',
             'archivo_cierre' => 'required',          

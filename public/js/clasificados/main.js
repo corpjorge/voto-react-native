@@ -16646,15 +16646,14 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
                 data.append('archivo1', _this.clasificado.archivo1 ? _this.clasificado.archivo1 : '');
                 data.append('archivo2', _this.clasificado.archivo2 ? _this.clasificado.archivo2 : '');
                 data.append('archivo3', _this.clasificado.archivo3 ? _this.clasificado.archivo3 : '');
-                data.append('archivo4', _this.clasificado.archivo4 ? _this.clasificado.archivo4 : '');
-                _context.next = 13;
+                _context.next = 12;
                 return axios.post('/clasificados', data).then(function () {
                   _this.enviando = true;
                 })["catch"](function (error) {
                   _this.errors = error.response.data.errors;
                 });
 
-              case 13:
+              case 12:
               case "end":
                 return _context.stop();
             }
@@ -16886,25 +16885,8 @@ var _hoisted_42 = {
 var _hoisted_43 = {
   "class": "invalid-feedback"
 };
-var _hoisted_44 = {
-  "class": "mb-3 row"
-};
 
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "archivo1",
-  "class": "col-sm-1 col-form-label"
-}, "Foto 4:", -1
-/* HOISTED */
-);
-
-var _hoisted_46 = {
-  "class": "col-sm-10"
-};
-var _hoisted_47 = {
-  "class": "invalid-feedback"
-};
-
-var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "d-grid gap-2 col-6 mx-auto"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   "class": "btn btn-primary",
@@ -16919,7 +16901,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "needs-validation",
     autocomplete: "off",
     novalidate: "",
-    onSubmit: _cache[11] || (_cache[11] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+    onSubmit: _cache[10] || (_cache[10] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.crearClasificado && $options.crearClasificado.apply($options, arguments);
     }, ["prevent"]))
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
@@ -17035,19 +17017,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS, HYDRATE_EVENTS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo3 ? $data.errors.archivo3[0] : ''), 1
   /* TEXT */
-  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "file",
-    accept: ".jpg",
-    "class": ["form-control form-control-sm", $data.errors.archivo4 ? 'is-invalid' : ''],
-    "aria-label": "file example",
-    onChange: _cache[10] || (_cache[10] = function () {
-      return $options.archivo4 && $options.archivo4.apply($options, arguments);
-    })
-  }, null, 34
-  /* CLASS, HYDRATE_EVENTS */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.errors.archivo4 ? $data.errors.archivo4[0] : ''), 1
-  /* TEXT */
-  )])]), _hoisted_48], 32
+  )])]), _hoisted_44], 32
   /* HYDRATE_EVENTS */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])])]);
 }

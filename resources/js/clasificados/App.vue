@@ -84,15 +84,7 @@
 					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo3 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo3">
 					<div class="invalid-feedback">{{ errors.archivo3 ? errors.archivo3[0] : ''}}</div>
 				</div>
-			</div> 	
-
-			<div class="mb-3 row">
-				<label for="archivo1" class="col-sm-1 col-form-label">Foto 4:</label>
-				<div class="col-sm-10">
-					<input type="file" accept=".jpg" class="form-control form-control-sm" :class="errors.archivo4 ? 'is-invalid' : '' " aria-label="file example"  @change="archivo4">
-					<div class="invalid-feedback">{{ errors.archivo4 ? errors.archivo4[0] : ''}}</div>
-				</div>
-			</div> 	
+			</div> 	 
 
 			<div class="d-grid gap-2 col-6 mx-auto">
 				<button class="btn btn-primary" type="submit" >Enviar</button>		 
@@ -144,8 +136,7 @@ export default {
 			data.append('descripcion', this.clasificado.descripcion ? this.clasificado.descripcion : '')  
 			data.append('archivo1', this.clasificado.archivo1 ? this.clasificado.archivo1 : '')	 
 			data.append('archivo2', this.clasificado.archivo2 ? this.clasificado.archivo2 : '')	 
-			data.append('archivo3', this.clasificado.archivo3 ? this.clasificado.archivo3 : '')	 
-			data.append('archivo4', this.clasificado.archivo4 ? this.clasificado.archivo4 : '')	 
+			data.append('archivo3', this.clasificado.archivo3 ? this.clasificado.archivo3 : '')	 	 
 
 			await axios.post('/clasificados', data).then(() => { this.enviando = true; }).catch(error => { this.errors = error.response.data.errors; })
 		},

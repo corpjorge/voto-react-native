@@ -41,20 +41,12 @@ class ClasificadoController extends Controller
             $archivo3 = $request->file('archivo3')->getClientOriginalName();
             $archivo3 = \Str::random(3) . $archivo3;
             Storage::putFileAs('public/clasificados', new File($request->archivo3), $archivo3);
-        }
-
-
-        if ($request->file('archivo4')) {
-            $archivo4 = $request->file('archivo4')->getClientOriginalName();
-            $archivo4 = \Str::random(3) . $archivo4;
-            Storage::putFileAs('public/clasificados', new File($request->archivo4), $archivo4);
-        } 
+        }  
 
         $fotos =array(
             "archivo1"    => isset($archivo1) ? $archivo1 : null,
             "archivo2"    => isset($archivo2) ? $archivo2 : null,
-            "archivo3"    => isset($archivo3) ? $archivo3 : null,
-            "archivo4"    => isset($archivo4) ? $archivo4 : null,           
+            "archivo3"    => isset($archivo3) ? $archivo3 : null,                    
         );
 
         $clasificado->fill($request->all());

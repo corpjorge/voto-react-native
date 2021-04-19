@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PQRController;
-use App\Http\Controllers\pqrsOficinaController;
+use App\Http\Controllers\PqrsOficinaController;
 use App\Http\Controllers\ClasificadoController;
 use App\Http\Controllers\ClasificadoTipoController;
 use App\Http\Controllers\EventoController;
@@ -18,7 +18,7 @@ Route::get('/home', [HomeController::class, 'redirecionarPqrs']);
 
 Route::get('/pqrs', [PQRController::class, 'vista']);
 Route::post('/pqrs', [PQRController::class, 'crear']);
-Route::get('/pqrs-oficinas', [pqrsOficinaController::class, 'oficinas']);
+Route::get('/pqrs-oficinas', [PqrsOficinaController::class, 'oficinas']);
 
 Route::get('/clasificados', [ClasificadoController::class, 'vista']);
 Route::post('/clasificados', [ClasificadoController::class, 'crear']);

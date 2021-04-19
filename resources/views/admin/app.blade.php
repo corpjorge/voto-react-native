@@ -24,8 +24,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url('admin/eventos') }}">Eventos</a>
-            </li>            
-          </ul>           
+            </li>   
+          </ul>            
+          <form class="d-flex" method="POST" action="{{ route('logout') }}">   
+            @csrf         
+            <button type="submit" class="btn btn-outline-info" type="submit">Salir</button>
+          </form>        
         </div>
       </div>
     </nav>

@@ -1,19 +1,23 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
+ 
 
 class HomeController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function __invoke(Request $request)
+   
+    public function home()
     {
         return view('welcome');
+    }
+
+    public function redirecionar()
+    {
+        return redirect('/login');
+    }
+
+    public function redirecionarPqrs()
+    {
+        return redirect('/admin/pqrs');
     }
 }

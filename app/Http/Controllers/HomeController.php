@@ -16,8 +16,12 @@ class HomeController extends Controller
         return redirect('/login');
     }
 
-    public function redirecionarPqrs()
+    public function ingreso()
     {
-        return redirect('/admin/pqrs');
+        if (auth()->user()->rol == 1) {
+            return redirect('/admin/pqrs');
+        }
+
+        return redirect('/actualizacion');
     }
 }

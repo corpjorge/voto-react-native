@@ -8,13 +8,14 @@ use App\Http\Controllers\ClasificadoController;
 use App\Http\Controllers\ClasificadoTipoController;
 use App\Http\Controllers\EventoController;
 use App\Http\Controllers\EventoListaController;
+use App\Http\Controllers\ActualizacionController;
 use App\Http\Controllers\Admin\AdminEventoController;
 use App\Http\Controllers\Admin\AdminClasificadoController;
 use App\Http\Controllers\Admin\AdminPqrController;
  
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/admin', [HomeController::class, 'redirecionar']);
-Route::get('/home', [HomeController::class, 'redirecionarPqrs']); 
+Route::get('/home', [HomeController::class, 'ingreso']);
 
 Route::get('/pqrs', [PQRController::class, 'vista']);
 Route::post('/pqrs', [PQRController::class, 'crear']);
@@ -31,6 +32,10 @@ Route::post('/eventos', [EventoController::class, 'crear']);
 Route::get('/eventos-lista', [EventoListaController::class, 'lista']);
 
 Route::group(['middleware' => 'auth'], function () {
+
+    Route::get('/actualizacion', [ActualizacionController::class, 'vista']);
+    Route::post('/actualizacion', [ActualizacionController::class, 'guardarDatos']);
+    Route::get('/datos', [ActualizacionController::class, 'datos']);
 
     Route::get('/admin/pqrs', [AdminPqrController::class, 'vista']);
     Route::get('/admin/pqrs/datos', [AdminPqrController::class, 'datos']);

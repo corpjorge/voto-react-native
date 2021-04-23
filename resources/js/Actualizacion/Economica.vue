@@ -29,15 +29,15 @@
 
       <div class="col-md-1">
         <label for="dia_vinculacion" class="form-label">Fecha</label>
-        <input type="text" class="form-control" id="dia_vinculacion" placeholder="Dia" @change="guardarDatos" v-model="datos.dia_vinculacion">
+        <input type="number" class="form-control" id="dia_vinculacion" placeholder="Dia" @change="guardarDatos" v-model="datos.dia_vinculacion" min="1" max="31">
       </div>
       <div class="col-md-1">
         <label for="mes_vinculacion" class="form-label">de</label>
-        <input type="text" class="form-control" id="mes_vinculacion" placeholder="Mes" @change="guardarDatos" v-model="datos.mes_vinculacion">
+        <input type="number" class="form-control" id="mes_vinculacion" placeholder="Mes" @change="guardarDatos" v-model="datos.mes_vinculacion" min="1" max="12">
       </div>
       <div class="col-md-1">
         <label for="año_vinculacion" class="form-label">vinculación</label>
-        <input type="text" class="form-control" id="año_vinculacion" placeholder="Año" @change="guardarDatos" v-model="datos.año_vinculacion">
+        <input type="number" class="form-control" id="año_vinculacion" placeholder="Año" @change="guardarDatos" v-model="datos.año_vinculacion" min="1">
       </div>
 
 
@@ -48,7 +48,7 @@
 
       <div class="col-md-2">
         <label for="telefono_fijo_empresa" class="form-label">Telefono fijo</label>
-        <input type="text" class="form-control" id="telefono_fijo_empresa" placeholder="" @change="guardarDatos" v-model="datos.telefono_fijo_empresa">
+        <input type="number" class="form-control" id="telefono_fijo_empresa" placeholder="" @change="guardarDatos" v-model="datos.telefono_fijo_empresa">
       </div>
 
       <div class="col-md-3">
@@ -169,12 +169,12 @@
 
       <div class="col-md-3">
         <label for="cedula_familia_PEP_vinculado_1" class="form-label">Cedula</label>
-        <input type="text" class="form-control" id="cedula_familia_PEP_vinculado_1" @change="guardarDatos" v-model="datos.cedula_familia_PEP_vinculado_1">
+        <input type="number" class="form-control" id="cedula_familia_PEP_vinculado_1" @change="guardarDatos" v-model="datos.cedula_familia_PEP_vinculado_1">
       </div>
 
       <div class="col-md-3">
         <label for="telefono_familia_PEP_vinculado_1" class="form-label">Telefono</label>
-        <input type="text" class="form-control" id="telefono_familia_PEP_vinculado_1" @change="guardarDatos" v-model="datos.telefono_familia_PEP_vinculado_1">
+        <input type="number" class="form-control" id="telefono_familia_PEP_vinculado_1" @change="guardarDatos" v-model="datos.telefono_familia_PEP_vinculado_1">
       </div>
 
       <div class="col-md-3">
@@ -189,12 +189,12 @@
 
       <div class="col-md-3">
         <label for="cedula_familia_PEP_vinculado_2" class="form-label">Cedula</label>
-        <input type="text" class="form-control" id="cedula_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.cedula_familia_PEP_vinculado_2">
+        <input type="number" class="form-control" id="cedula_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.cedula_familia_PEP_vinculado_2">
       </div>
 
       <div class="col-md-3">
         <label for="telefono_familia_PEP_vinculado_2" class="form-label">Telefono</label>
-        <input type="text" class="form-control" id="telefono_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.telefono_familia_PEP_vinculado_2">
+        <input type="number" class="form-control" id="telefono_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.telefono_familia_PEP_vinculado_2">
       </div>
 
       <div class="col-md-3">

@@ -2129,7 +2129,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.departamento]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "estrato",
     placeholder: "",
@@ -2138,33 +2138,37 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
       return $data.datos.estrato = $event;
-    })
+    }),
+    min: "0",
+    max: "6"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.estrato]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "telefono_celular",
-    placeholder: "Mes",
+    placeholder: "",
     onChange: _cache[11] || (_cache[11] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
       return $data.datos.telefono_celular = $event;
-    })
+    }),
+    min: "0"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.telefono_celular]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "telefono_fijo",
-    placeholder: "Año",
+    placeholder: "",
     onChange: _cache[13] || (_cache[13] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
       return $data.datos.telefono_fijo = $event;
-    })
+    }),
+    min: "0"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.telefono_fijo]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_18, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {

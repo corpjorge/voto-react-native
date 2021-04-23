@@ -1,8 +1,8 @@
 <template>
   <div class="col-lg-12 mx-auto p-3 py-md-5">
-    <header class="d-flex align-items-center mb-2 border-bottom">   
-    <h3>Datos de localizacion</h3>     
-    </header>     
+    <header class="d-flex align-items-center mb-2 border-bottom">
+    <h3>Datos de localizacion</h3>
+    </header>
     <div class="row g-3">
       <div class="col-md-3">
         <label for="direccion_residencia" class="form-label">Dirección de residencia</label>
@@ -20,20 +20,20 @@
         <label for="departamento" class="form-label">Departamento</label>
         <input type="text" class="form-control" id="departamento" @change="guardarDatos" v-model="datos.departamento">
       </div>
-     
+
       <div class="col-md-2">
         <label for="estrato" class="form-label">Estrato</label>
-        <input type="text" class="form-control" id="estrato" placeholder="" @change="guardarDatos" v-model="datos.estrato">
+        <input type="number" class="form-control" id="estrato" placeholder="" @change="guardarDatos" v-model="datos.estrato" min="0" max="6">
       </div>
       <div class="col-md-2">
         <label for="telefono_celular" class="form-label">Telefono Celular</label>
-        <input type="text" class="form-control" id="telefono_celular" placeholder="Mes" @change="guardarDatos" v-model="datos.telefono_celular">
+        <input type="number" class="form-control" id="telefono_celular" placeholder="" @change="guardarDatos" v-model="datos.telefono_celular" min="0" >
       </div>
       <div class="col-md-2">
         <label for="telefono_fijo" class="form-label">Telefono Fijo</label>
-        <input type="text" class="form-control" id="telefono_fijo" placeholder="Año" @change="guardarDatos" v-model="datos.telefono_fijo">
+        <input type="number" class="form-control" id="telefono_fijo" placeholder="" @change="guardarDatos" v-model="datos.telefono_fijo" min="0">
       </div>
-      
+
 
       <div class="col-md-3">
         <label for="tipo_vivienda" class="form-label">Tipo vivienda</label>
@@ -47,35 +47,35 @@
       <div class="col-md-3">
         <label for="documento_numero" class="form-label">Correo electronico</label>
         <input type="email" class="form-control" id="documento_numero" @change="guardarDatos" v-model="datos.correo">
-      </div>  
+      </div>
 
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <router-link class="btn btn-primary me-md-2"  :to="{ name: 'root' } ">
             <ion-icon name="caret-back-outline"></ion-icon> Anterior
-        </router-link> 
+        </router-link>
         <router-link class="btn btn-primary"  :to="{ name: 'Economica' } ">
              Siguiente <ion-icon name="caret-forward-outline"></ion-icon>
-        </router-link>          
+        </router-link>
       </div>
 
     </div>
   </div>
 </template>
 
-<script> 
+<script>
 import axios from 'axios';
 
 export default {
     name: 'Localizacion',
 	data() {
-        return {           		
-          datos: {},            
+        return {
+          datos: {},
         }
     },
 	mounted() {
-		this.obtenerDatos()  
+		this.obtenerDatos()
     window.scrollTo(0, 0);
-	},  
+	},
 	methods: {
     async obtenerDatos(){ await axios.get('datos').then(response => { this.datos = response.data; this.paginacion = response.data;}) },
     async guardarDatos(){ await axios.post('/actualizacion', this.datos ) }

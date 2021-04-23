@@ -2511,7 +2511,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.cargo]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "dia_vinculacion",
     placeholder: "Dia",
@@ -2520,11 +2520,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
       return $data.datos.dia_vinculacion = $event;
-    })
+    }),
+    min: "1",
+    max: "31"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.dia_vinculacion]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "mes_vinculacion",
     placeholder: "Mes",
@@ -2533,11 +2535,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
       return $data.datos.mes_vinculacion = $event;
-    })
+    }),
+    min: "1",
+    max: "12"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.mes_vinculacion]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_18, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "año_vinculacion",
     placeholder: "Año",
@@ -2546,7 +2550,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
       return $data.datos.año_vinculacion = $event;
-    })
+    }),
+    min: "1"
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.año_vinculacion]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
@@ -2562,7 +2567,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.barrio_empresa]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_22, [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "telefono_fijo_empresa",
     placeholder: "",
@@ -2761,7 +2766,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familia_PEP_vinculado_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_79, [_hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "cedula_familia_PEP_vinculado_1",
     onChange: _cache[51] || (_cache[51] = function () {
@@ -2773,7 +2778,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.cedula_familia_PEP_vinculado_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_81, [_hoisted_82, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "telefono_familia_PEP_vinculado_1",
     onChange: _cache[53] || (_cache[53] = function () {
@@ -2810,7 +2815,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familia_PEP_vinculado_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_87, [_hoisted_88, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "cedula_familia_PEP_vinculado_2",
     onChange: _cache[59] || (_cache[59] = function () {
@@ -2822,7 +2827,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.cedula_familia_PEP_vinculado_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_89, [_hoisted_90, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
+    type: "number",
     "class": "form-control",
     id: "telefono_familia_PEP_vinculado_2",
     onChange: _cache[61] || (_cache[61] = function () {

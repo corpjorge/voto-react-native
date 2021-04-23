@@ -1,8 +1,8 @@
 <template>
   <div class="col-lg-12 mx-auto p-3 py-md-5">
-    <header class="d-flex align-items-center mb-2 border-bottom">   
-    <h3>Información económica</h3>     
-    </header>     
+    <header class="d-flex align-items-center mb-2 border-bottom">
+    <h3>Información económica</h3>
+    </header>
     <div class="row g-3">
       <div class="col-md-3">
         <label for="actividad_economica" class="form-label">Actividad económica</label>
@@ -13,9 +13,9 @@
         <label for="declara_renta" class="form-label">Declara renta</label>
         <select id="declara_renta" class="form-select" @change="guardarDatos" v-model="datos.declara_renta">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>          
+          <option value="SI">SI</option>
         </select>
-      </div>  
+      </div>
 
       <div class="col-md-4">
         <label for="nombre_empresa" class="form-label">Nombre de la empresa donde labora</label>
@@ -45,7 +45,7 @@
         <label for="barrio_empresa" class="form-label">Barrio</label>
         <input type="text" class="form-control" id="barrio_empresa" @change="guardarDatos" v-model="datos.barrio_empresa">
       </div>
-     
+
       <div class="col-md-2">
         <label for="telefono_fijo_empresa" class="form-label">Telefono fijo</label>
         <input type="text" class="form-control" id="telefono_fijo_empresa" placeholder="" @change="guardarDatos" v-model="datos.telefono_fijo_empresa">
@@ -55,15 +55,15 @@
         <label for="tipo_contrato" class="form-label">Tipo de contrato</label>
         <select id="tipo_contrato" class="form-select" @change="guardarDatos" v-model="datos.tipo_contrato">
           <option value="Fijo">Fijo</option>
-          <option value="Indefinido">Indefinido</option>          
+          <option value="Indefinido">Indefinido</option>
         </select>
       </div>
-      
+
       <div class="col-md-3">
         <label for="funcionario_publico" class="form-label">¿Es funcionario publico?</label>
         <select id="funcionario_publico" class="form-select" @change="guardarDatos" v-model="datos.funcionario_publico">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
@@ -71,7 +71,7 @@
         <label for="adm_recusos_publicos" class="form-label">¿Adm recursos públicos?</label>
         <select id="adm_recusos_publicos" class="form-select" @change="guardarDatos" v-model="datos.adm_recusos_publicos">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
@@ -79,7 +79,7 @@
         <label for="ejerce_poder_publico" class="form-label">¿Ejerce algún grado de poder?</label>
         <select id="ejerce_poder_publico" class="form-select" @change="guardarDatos" v-model="datos.ejerce_poder_publico">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
@@ -87,7 +87,7 @@
         <label for="reconocimiento_publico" class="form-label">¿Goza de reconocimiento público?</label>
         <select id="reconocimiento_publico" class="form-select" @change="guardarDatos" v-model="datos.reconocimiento_publico">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
@@ -95,23 +95,23 @@
         <label for="operacion_moneda_extranjera" class="form-label">¿Realiza operacion con moneda extrangera?</label>
         <select id="operacion_moneda_extranjera" class="form-select" @change="guardarDatos" v-model="datos.operacion_moneda_extranjera">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
       <div class="col-md-4">
-        <label for="operacion_moneda_extranjera" class="form-label">¿Posee cuentas en moneda extranjera?</label>
-        <select id="operacion_moneda_extranjera" class="form-select" @change="guardarDatos" v-model="datos.operacion_moneda_extranjera">
+        <label for="cuentas_moneda_extranjera" class="form-label">¿Posee cuentas en moneda extranjera?</label>
+        <select id="cuentas_moneda_extranjera" class="form-select" @change="guardarDatos" v-model="datos.cuentas_monedas_extranjera">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
-      
+
       <div class="col-md-3">
         <label for="banco" class="form-label">Banco</label>
         <input type="text" class="form-control" id="banco" placeholder="" @change="guardarDatos" v-model="datos.banco">
-      </div> 
- 
+      </div>
+
 
       <div class="col-md-3">
         <label for="cuentas_monedas_extranjera" class="form-label">N° de cuenta</label>
@@ -137,9 +137,9 @@
         <label for="tipo_operacion_moneda_extrangera" class="form-label">Tipo de operaciones con moneda extrangera</label>
         <select id="tipo_operacion_moneda_extrangera" class="form-select" @change="guardarDatos" v-model="datos.tipo_operacion_moneda_extrangera">
           <option value="Exportación">Exportación</option>
-          <option value="Importación">Importación</option> 
-          <option value="Giros Prestamos en M/C">Giros Prestamos en M/C</option>       
-          <option value="Inversiones">Inversiones</option>     
+          <option value="Importación">Importación</option>
+          <option value="Giros Prestamos en M/C">Giros Prestamos en M/C</option>
+          <option value="Inversiones">Inversiones</option>
         </select>
       </div>
 
@@ -147,16 +147,16 @@
         <label for="familia_labora_sector_publico" class="form-label">¿Tiene familias que laboran en el sector público o administran recursos públicos?</label>
         <select id="familia_labora_sector_publico" class="form-select" @change="guardarDatos" v-model="datos.familia_labora_sector_publico">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
-      
+
       <div class="col-md-5">
         <label for="familia_vinculados" class="form-label">¿Tiene familias vinculados a nuestra cooperativa?</label>
         <select id="familia_vinculados" class="form-select" @change="guardarDatos" v-model="datos.familia_vinculados">
           <option value="NO">NO</option>
-          <option value="SI">SI</option>           
+          <option value="SI">SI</option>
         </select>
       </div>
 
@@ -201,34 +201,34 @@
         <label for="parantesco_familia_PEP_vinculado_2" class="form-label">Parentesco</label>
         <input type="text" class="form-control" id="parantesco_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.parantesco_familia_PEP_vinculado_2">
       </div>
- 
+
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <router-link class="btn btn-primary me-md-2"  :to="{ name: 'Localizacion' } ">
             <ion-icon name="caret-back-outline"></ion-icon> Anterior
-        </router-link> 
+        </router-link>
         <router-link class="btn btn-primary"  :to="{ name: 'Financiero' } ">
              Siguiente <ion-icon name="caret-forward-outline"></ion-icon>
-        </router-link>          
+        </router-link>
       </div>
 
     </div>
   </div>
 </template>
 
-<script> 
+<script>
 import axios from 'axios';
 
 export default {
     name: 'Economica',
 	data() {
-        return {           		
-          datos: {},            
+        return {
+          datos: {},
         }
     },
 	mounted() {
-		this.obtenerDatos()  
+		this.obtenerDatos()
     window.scrollTo(0, 0);
-	},  
+	},
 	methods: {
     async obtenerDatos(){ await axios.get('datos').then(response => { this.datos = response.data; this.paginacion = response.data;}) },
     async guardarDatos(){ await axios.post('/actualizacion', this.datos ) }

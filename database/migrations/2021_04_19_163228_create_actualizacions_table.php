@@ -24,7 +24,7 @@ class CreateActualizacionsTable extends Migration
             $table->text('mes_nacimiento')->nullable();
             $table->text('año_nacimiento')->nullable();
             $table->text('tipo_documento')->nullable();
-            $table->text('documento_numero')->nullable();             
+            $table->text('documento_numero')->nullable();
             $table->text('dia_expedicion_doc')->nullable();
             $table->text('mes_expedicion_doc')->nullable();
             $table->text('año_expedicion_doc')->nullable();
@@ -74,9 +74,9 @@ class CreateActualizacionsTable extends Migration
             $table->text('nombre_familia_PEP_vinculado_1')->nullable();
             $table->text('cedula_familia_PEP_vinculado_1')->nullable();
             $table->text('telefono_familia_PEP_vinculado_1')->nullable();
-            $table->text('parantesco_familia_PEP_vinculado_1')->nullable();          
+            $table->text('parantesco_familia_PEP_vinculado_1')->nullable();
             $table->text('nombre_familia_PEP_vinculado_2')->nullable();
-            $table->text('cedula_familia_PEP_vinculado_2')->nullable();         
+            $table->text('cedula_familia_PEP_vinculado_2')->nullable();
             $table->text('telefono_familia_PEP_vinculado_2')->nullable();
             $table->text('parantesco_familia_PEP_vinculado_2')->nullable();
             $table->text('ingreso_mensual')->nullable();
@@ -86,6 +86,7 @@ class CreateActualizacionsTable extends Migration
             $table->text('gastos_personales')->nullable();
             $table->text('cuotas_creditos')->nullable();
             $table->text('otros_gastos')->nullable();
+            $table->text('total_gastos')->nullable();
             $table->text('tipo_bienes_1')->nullable();
             $table->text('direccion_bienes_1')->nullable();
             $table->text('ciudad_bienes_1')->nullable();
@@ -123,7 +124,7 @@ class CreateActualizacionsTable extends Migration
             $table->text('tipo_doc_familiar_4')->nullable();
             $table->text('doc_familiar_4')->nullable();
             $table->text('nombre_familiar_4')->nullable();
-            $table->text('parentesco_familiar_4')->nullable(); 
+            $table->text('parentesco_familiar_4')->nullable();
             $table->timestamps();
         });
     }

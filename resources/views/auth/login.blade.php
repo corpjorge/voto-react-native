@@ -2,9 +2,9 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Signin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <style>
         html,
         body {
@@ -46,8 +46,8 @@
         border-top-right-radius: 0;
         }
 
-    </style>        
-      
+    </style>
+
     </head>
     <body class="text-center">
 
@@ -57,32 +57,32 @@
           </div>
       @endif
 
-        
 
-        
+
+
     <main class="form-signin">
-    <form class="form" method="POST" action="{{ route('login') }}">  
-      @if (!$errors->isEmpty()) 
+    <form class="form" method="POST" action="{{ route('login') }}">
+      @if (!$errors->isEmpty())
         <div class="alert alert-danger" role="alert">
           @foreach ($errors->all() as $error)
             <span> {{ $error }} </span> <br/>
-          @endforeach 
+          @endforeach
         </div>
       @endif
-      @csrf    
+      @csrf
         <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
         <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
-          <label for="floatingInput">Correo</label>
+          <input type="number" class="form-control" id="floatingInput" placeholder="N° de documento" name="documento">
+          <label for="floatingInput">Documento</label>
         </div>
         <div class="form-floating">
           <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña" name="password">
           <label for="floatingPassword">Contraseña</label>
-        </div>         
+        </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2021 <a href="https://fyclsingenieria.com/" target="_black">FyclsIngenieria.com </a> </p>
     </form>
-    </main> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>    
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DepartamentoController;
+use App\Http\Controllers\MunicipioController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PQRController;
@@ -12,7 +14,7 @@ use App\Http\Controllers\ActualizacionController;
 use App\Http\Controllers\Admin\AdminEventoController;
 use App\Http\Controllers\Admin\AdminClasificadoController;
 use App\Http\Controllers\Admin\AdminPqrController;
- 
+
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/admin', [HomeController::class, 'redirecionar']);
 Route::get('/home', [HomeController::class, 'ingreso']);
@@ -31,6 +33,9 @@ Route::get('/eventos', [EventoController::class, 'vista']);
 Route::post('/eventos', [EventoController::class, 'crear']);
 Route::get('/eventos-lista', [EventoListaController::class, 'lista']);
 
+Route::get('/departamentos-lista', [DepartamentoController::class, 'lista']);
+Route::get('/ciudades-lista/{id}', [MunicipioController::class, 'lista']);
+
 Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/actualizacion', [ActualizacionController::class, 'vista']);
@@ -46,7 +51,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin/clasificados', [AdminClasificadoController::class, 'vista']);
     Route::get('/admin/clasificados/datos', [AdminClasificadoController::class, 'datos']);
     Route::post('/admin/clasificados/activar/{id}', [AdminClasificadoController::class, 'activar']);
-    Route::delete('/admin/clasificados/eliminar/{id}', [AdminClasificadoController::class, 'eliminar']); 
+    Route::delete('/admin/clasificados/eliminar/{id}', [AdminClasificadoController::class, 'eliminar']);
 
     Route::get('/admin/eventos', [AdminEventoController::class, 'vista']);
     Route::get('/admin/eventos/datos', [AdminEventoController::class, 'datos']);

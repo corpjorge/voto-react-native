@@ -14,8 +14,8 @@ class ActualizacionController extends Controller
         if(!$actualizacion){
             $nuevo = new Actualizacion;
             $nuevo->user_id = auth()->user()->id;
-            $nuevo->save();            
-        }  
+            $nuevo->save();
+        }
 
         return view('actualizacion');
     }
@@ -28,6 +28,6 @@ class ActualizacionController extends Controller
 
     public function datos()
     {
-        return Actualizacion::where('user_id', auth()->user()->id)->first();       
+        return Actualizacion::where('user_id', auth()->user()->id)->first();
     }
 }

@@ -4,39 +4,39 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Clasificado; 
+use App\Models\Clasificado;
 
 class AdminClasificadoController extends Controller
 {
     public function vista()
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return view('admin.clasificados');
     }
 
     public function datos()
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return Clasificado::orderBy('created_at', 'desc')->paginate(20);
     }
 
     public function editar($id)
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return Clasificado::find($id);
     }
 
     public function activar(Request $request, $id)
     {
-        $this->authorize('admin', User::class); 
-        $clasificado = Clasificado::find($id);      
-        $clasificado->estado = $request->estado ? null : 'true';        
+        if (auth()->user()->rol !== 1) { abort(403);  }
+        $clasificado = Clasificado::find($id);
+        $clasificado->estado = $request->estado ? null : 'true';
         $clasificado->save();
     }
 
     public function eliminar($id)
     {
-        $this->authorize('admin', User::class);
-        Clasificado::find($id)->delete();         
+        if (auth()->user()->rol !== 1) { abort(403);  }
+        Clasificado::find($id)->delete();
     }
-} 
+}

@@ -123,14 +123,14 @@
         <input type="text" class="form-control" id="moneda" @change="guardarDatos" v-model="datos.moneda" >
       </div>
 
+        <div class="col-md-3">
+            <label for="pais_banco" class="form-label">Pais</label>
+            <input type="text" class="form-control" id="pais_banco" placeholder="" @change="guardarDatos" v-model="datos.pais_banco">
+        </div>
+
       <div class="col-md-3">
         <label for="ciudad_banco" class="form-label">Ciudad</label>
         <input type="text" class="form-control" id="ciudad_banco" placeholder="" @change="guardarDatos" v-model="datos.ciudad_banco">
-      </div>
-
-      <div class="col-md-3">
-        <label for="pais_banco" class="form-label">Pais</label>
-        <input type="text" class="form-control" id="pais_banco" placeholder="" @change="guardarDatos" v-model="datos.pais_banco">
       </div>
 
       <div class="col-md-4">

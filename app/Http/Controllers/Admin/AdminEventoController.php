@@ -5,34 +5,34 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Evento;
-use App\Models\EventoLista;  
+use App\Models\EventoLista;
 
 class AdminEventoController extends Controller
 {
     public function vista()
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return view('admin.eventos');
     }
 
     public function datos()
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return EventoLista::orderBy('created_at', 'desc')->paginate(20);
     }
 
     public function inscritos($evento)
     {
-        $this->authorize('admin', User::class);     
+        if (auth()->user()->rol !== 1) { abort(403);  }
         return Evento::where('evento', $evento)->paginate(20);
     }
 
     public function crear(Request $request)
     {
-        $this->authorize('admin', User::class);
+        if (auth()->user()->rol !== 1) { abort(403);  }
         $request->validate([ 'nombre' => 'required' ]);
 
-        $evento = new EventoLista;            
+        $evento = new EventoLista;
         $evento->nombre = $request->nombre;
         $evento->save();
     }
@@ -40,7 +40,7 @@ class AdminEventoController extends Controller
 
     public function eliminar($id)
     {
-        $this->authorize('admin', User::class);
-        EventoLista::find($id)->delete(); 
+        if (auth()->user()->rol !== 1) { abort(403);  }
+        EventoLista::find($id)->delete();
     }
 }

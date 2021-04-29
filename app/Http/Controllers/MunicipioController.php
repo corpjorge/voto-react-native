@@ -9,6 +9,6 @@ class MunicipioController extends Controller
 {
     public function lista($id)
     {
-        return Municipio::where('departamento_id',$id)->get();
+        return Municipio::where('code_dep_id',$id)->get();
     }
 }

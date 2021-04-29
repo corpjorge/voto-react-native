@@ -1961,274 +1961,194 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.C"
-}, "C.C", -1
-/* HOISTED */
-);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"R\">REGISTRO CIVIL</option><option value=\"U\">NUIP</option><option value=\"P\">PASAPORTE</option><option value=\"C\">CEDULA</option><option value=\"A\">NIT</option><option value=\"T\">TARJETA DE IDENTIDAD</option><option value=\"O\">OTROS</option><option value=\"E\">CEDULA DE EXTRANJERIA</option><option value=\"S\">TARJETA SEGURO SOCIAL</option>", 9);
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.E"
-}, "C.E", -1
-/* HOISTED */
-);
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "T.I"
-}, "T.I", -1
-/* HOISTED */
-);
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "R.C"
-}, "R.C", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = {
+var _hoisted_15 = {
   "class": "col-md-3"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "doc_familiar_1",
   "class": "form-label"
 }, "Numero de identificación", -1
 /* HOISTED */
 );
 
-var _hoisted_12 = {
+var _hoisted_17 = {
   "class": "col-md-3"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "nombre_familiar_1",
   "class": "form-label"
 }, "Nombre", -1
 /* HOISTED */
 );
 
-var _hoisted_14 = {
+var _hoisted_19 = {
   "class": "col-md-3"
 };
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "parentesco_familiar_1",
   "class": "form-label"
 }, "Parentesco", -1
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"V\">TERCERO BENEFICIARIO</option><option value=\"W\">NIÑERA</option><option value=\"H\">HIJO</option><option value=\"R\">PRIMO</option><option value=\"U\">CUÑADO</option><option value=\"P\">PADRE</option><option value=\"M\">MADRE</option><option value=\"C\">CONYUGE</option><option value=\"T\">TIO</option><option value=\"B\">SOBRINO</option><option value=\"A\">ABUELO</option><option value=\"5\">PADRASTRO</option><option value=\"J\">HIJO ADOPTIVO</option><option value=\"O\">OTROS</option><option value=\"N\">NIETO</option><option value=\"Z\">COMPAÑERO PERMANENTE</option><option value=\"E\">HERMANO</option><option value=\"S\">SUEGRO</option><option value=\"2\">HIJASTRO</option><option value=\"4\">PADRE DE CRIANZA</option><option value=\"L\">MADRE ADOPTANTE</option><option value=\"F\">PADRE ADOPTANTE</option>", 22);
+
+var _hoisted_43 = {
   "class": "col-md-3"
 };
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "tipo_doc_familiar_2",
   "class": "form-label"
 }, "Tipo de documento", -1
 /* HOISTED */
 );
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.C"
-}, "C.C", -1
-/* HOISTED */
-);
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"R\">REGISTRO CIVIL</option><option value=\"U\">NUIP</option><option value=\"P\">PASAPORTE</option><option value=\"C\">CEDULA</option><option value=\"A\">NIT</option><option value=\"T\">TARJETA DE IDENTIDAD</option><option value=\"O\">OTROS</option><option value=\"E\">CEDULA DE EXTRANJERIA</option><option value=\"S\">TARJETA SEGURO SOCIAL</option>", 9);
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.E"
-}, "C.E", -1
-/* HOISTED */
-);
-
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "T.I"
-}, "T.I", -1
-/* HOISTED */
-);
-
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "R.C"
-}, "R.C", -1
-/* HOISTED */
-);
-
-var _hoisted_22 = {
+var _hoisted_54 = {
   "class": "col-md-3"
 };
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "doc_familiar_2",
   "class": "form-label"
 }, "Numero de identificación", -1
 /* HOISTED */
 );
 
-var _hoisted_24 = {
+var _hoisted_56 = {
   "class": "col-md-3"
 };
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "nombre_familiar_2",
   "class": "form-label"
 }, "Nombre", -1
 /* HOISTED */
 );
 
-var _hoisted_26 = {
+var _hoisted_58 = {
   "class": "col-md-3"
 };
 
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "parentesco_familiar_2",
   "class": "form-label"
 }, "Parentesco", -1
 /* HOISTED */
 );
 
-var _hoisted_28 = {
+var _hoisted_60 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"V\">TERCERO BENEFICIARIO</option><option value=\"W\">NIÑERA</option><option value=\"H\">HIJO</option><option value=\"R\">PRIMO</option><option value=\"U\">CUÑADO</option><option value=\"P\">PADRE</option><option value=\"M\">MADRE</option><option value=\"C\">CONYUGE</option><option value=\"T\">TIO</option><option value=\"B\">SOBRINO</option><option value=\"A\">ABUELO</option><option value=\"5\">PADRASTRO</option><option value=\"J\">HIJO ADOPTIVO</option><option value=\"O\">OTROS</option><option value=\"N\">NIETO</option><option value=\"Z\">COMPAÑERO PERMANENTE</option><option value=\"E\">HERMANO</option><option value=\"S\">SUEGRO</option><option value=\"2\">HIJASTRO</option><option value=\"4\">PADRE DE CRIANZA</option><option value=\"L\">MADRE ADOPTANTE</option><option value=\"F\">PADRE ADOPTANTE</option>", 22);
+
+var _hoisted_82 = {
   "class": "col-md-3"
 };
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "tipo_vivienda",
+var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "tipo_doc_familiar_3",
   "class": "form-label"
 }, "Tipo de documento", -1
 /* HOISTED */
 );
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.C"
-}, "C.C", -1
-/* HOISTED */
-);
+var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"R\">REGISTRO CIVIL</option><option value=\"U\">NUIP</option><option value=\"P\">PASAPORTE</option><option value=\"C\">CEDULA</option><option value=\"A\">NIT</option><option value=\"T\">TARJETA DE IDENTIDAD</option><option value=\"O\">OTROS</option><option value=\"E\">CEDULA DE EXTRANJERIA</option><option value=\"S\">TARJETA SEGURO SOCIAL</option>", 9);
 
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.E"
-}, "C.E", -1
-/* HOISTED */
-);
-
-var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "T.I"
-}, "T.I", -1
-/* HOISTED */
-);
-
-var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "R.C"
-}, "R.C", -1
-/* HOISTED */
-);
-
-var _hoisted_34 = {
+var _hoisted_93 = {
   "class": "col-md-3"
 };
 
-var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "tipo_doc_familiar_3",
+var _hoisted_94 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "doc_familiar_3",
   "class": "form-label"
 }, "Numero de identificación", -1
 /* HOISTED */
 );
 
-var _hoisted_36 = {
+var _hoisted_95 = {
   "class": "col-md-3"
 };
 
-var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "doc_familiar_3",
+var _hoisted_96 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "nombre_familiar_3",
   "class": "form-label"
 }, "Nombre", -1
 /* HOISTED */
 );
 
-var _hoisted_38 = {
+var _hoisted_97 = {
   "class": "col-md-3"
 };
 
-var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "nombre_familiar_3",
+var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "parentesco_familiar_3",
   "class": "form-label"
 }, "Parentesco", -1
 /* HOISTED */
 );
 
-var _hoisted_40 = {
+var _hoisted_99 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"V\">TERCERO BENEFICIARIO</option><option value=\"W\">NIÑERA</option><option value=\"H\">HIJO</option><option value=\"R\">PRIMO</option><option value=\"U\">CUÑADO</option><option value=\"P\">PADRE</option><option value=\"M\">MADRE</option><option value=\"C\">CONYUGE</option><option value=\"T\">TIO</option><option value=\"B\">SOBRINO</option><option value=\"A\">ABUELO</option><option value=\"5\">PADRASTRO</option><option value=\"J\">HIJO ADOPTIVO</option><option value=\"O\">OTROS</option><option value=\"N\">NIETO</option><option value=\"Z\">COMPAÑERO PERMANENTE</option><option value=\"E\">HERMANO</option><option value=\"S\">SUEGRO</option><option value=\"2\">HIJASTRO</option><option value=\"4\">PADRE DE CRIANZA</option><option value=\"L\">MADRE ADOPTANTE</option><option value=\"F\">PADRE ADOPTANTE</option>", 22);
+
+var _hoisted_121 = {
   "class": "col-md-3"
 };
 
-var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_122 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "tipo_doc_familiar_4",
   "class": "form-label"
 }, "Tipo de documento", -1
 /* HOISTED */
 );
 
-var _hoisted_42 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.C"
-}, "C.C", -1
-/* HOISTED */
-);
+var _hoisted_123 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"R\">REGISTRO CIVIL</option><option value=\"U\">NUIP</option><option value=\"P\">PASAPORTE</option><option value=\"C\">CEDULA</option><option value=\"A\">NIT</option><option value=\"T\">TARJETA DE IDENTIDAD</option><option value=\"O\">OTROS</option><option value=\"E\">CEDULA DE EXTRANJERIA</option><option value=\"S\">TARJETA SEGURO SOCIAL</option>", 9);
 
-var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "C.E"
-}, "C.E", -1
-/* HOISTED */
-);
-
-var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "T.I"
-}, "T.I", -1
-/* HOISTED */
-);
-
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "R.C"
-}, "R.C", -1
-/* HOISTED */
-);
-
-var _hoisted_46 = {
+var _hoisted_132 = {
   "class": "col-md-3"
 };
 
-var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "doc_familiar_4",
   "class": "form-label"
 }, "Numero de identificación", -1
 /* HOISTED */
 );
 
-var _hoisted_48 = {
+var _hoisted_134 = {
   "class": "col-md-3"
 };
 
-var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_135 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "nombre_familiar_4",
   "class": "form-label"
 }, "Nombre", -1
 /* HOISTED */
 );
 
-var _hoisted_50 = {
+var _hoisted_136 = {
   "class": "col-md-3"
 };
 
-var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_137 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "parentesco_familiar_4",
   "class": "form-label"
 }, "Parentesco", -1
 /* HOISTED */
 );
 
-var _hoisted_52 = {
+var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"V\">TERCERO BENEFICIARIO</option><option value=\"W\">NIÑERA</option><option value=\"H\">HIJO</option><option value=\"R\">PRIMO</option><option value=\"U\">CUÑADO</option><option value=\"P\">PADRE</option><option value=\"M\">MADRE</option><option value=\"C\">CONYUGE</option><option value=\"T\">TIO</option><option value=\"B\">SOBRINO</option><option value=\"A\">ABUELO</option><option value=\"5\">PADRASTRO</option><option value=\"J\">HIJO ADOPTIVO</option><option value=\"O\">OTROS</option><option value=\"N\">NIETO</option><option value=\"Z\">COMPAÑERO PERMANENTE</option><option value=\"E\">HERMANO</option><option value=\"S\">SUEGRO</option><option value=\"2\">HIJASTRO</option><option value=\"4\">PADRE DE CRIANZA</option><option value=\"L\">MADRE ADOPTANTE</option><option value=\"F\">PADRE ADOPTANTE</option>", 22);
+
+var _hoisted_160 = {
   "class": "d-grid gap-2 d-md-flex justify-content-md-end"
 };
 
-var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Anterior ");
+var _hoisted_161 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Anterior ");
 
-var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Siguiente ");
+var _hoisted_162 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Siguiente ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
@@ -2244,9 +2164,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
       return $data.datos.tipo_doc_familiar_1 = $event;
     })
-  }, [_hoisted_6, _hoisted_7, _hoisted_8, _hoisted_9], 544
+  }, [_hoisted_6], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_15, [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "doc_familiar_1",
@@ -2258,7 +2178,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_17, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "nombre_familiar_1",
@@ -2270,19 +2190,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
-    "class": "form-control",
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_19, [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "parentesco_familiar_1",
+    "class": "form-select",
     onChange: _cache[7] || (_cache[7] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[8] || (_cache[8] = function ($event) {
       return $data.datos.parentesco_familiar_1 = $event;
     })
-  }, null, 544
+  }, [_hoisted_21], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.parentesco_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.parentesco_familiar_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_43, [_hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "tipo_doc_familiar_2",
     "class": "form-select",
     onChange: _cache[9] || (_cache[9] = function () {
@@ -2291,9 +2210,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
       return $data.datos.tipo_doc_familiar_2 = $event;
     })
-  }, [_hoisted_18, _hoisted_19, _hoisted_20, _hoisted_21], 544
+  }, [_hoisted_45], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_22, [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_54, [_hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "doc_familiar_2",
@@ -2305,7 +2224,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_24, [_hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_56, [_hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "nombre_familiar_2",
@@ -2317,20 +2236,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_26, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
-    "class": "form-control",
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_58, [_hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "parentesco_familiar_2",
+    "class": "form-select",
     onChange: _cache[15] || (_cache[15] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[16] || (_cache[16] = function ($event) {
       return $data.datos.parentesco_familiar_2 = $event;
     })
-  }, null, 544
+  }, [_hoisted_60], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.parentesco_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_28, [_hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
-    id: "tipo_vivienda",
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.parentesco_familiar_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_82, [_hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+    id: "tipo_doc_familiar_3",
     "class": "form-select",
     onChange: _cache[17] || (_cache[17] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
@@ -2338,12 +2256,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
       return $data.datos.tipo_doc_familiar_3 = $event;
     })
-  }, [_hoisted_30, _hoisted_31, _hoisted_32, _hoisted_33], 544
+  }, [_hoisted_84], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_34, [_hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_93, [_hoisted_94, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
-    id: "tipo_doc_familiar_3",
+    id: "doc_familiar_3",
     onChange: _cache[19] || (_cache[19] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
@@ -2352,10 +2270,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_36, [_hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_95, [_hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
-    id: "doc_familiar_3",
+    id: "nombre_familiar_3",
     onChange: _cache[21] || (_cache[21] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
@@ -2364,19 +2282,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_38, [_hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
-    "class": "form-control",
-    id: "nombre_familiar_3",
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_97, [_hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+    id: "parentesco_familiar_3",
+    "class": "form-select",
     onChange: _cache[23] || (_cache[23] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
       return $data.datos.parentesco_familiar_3 = $event;
     })
-  }, null, 544
+  }, [_hoisted_99], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.parentesco_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_40, [_hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.parentesco_familiar_3]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_121, [_hoisted_122, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "tipo_doc_familiar_4",
     "class": "form-select",
     onChange: _cache[25] || (_cache[25] = function () {
@@ -2385,9 +2302,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
       return $data.datos.tipo_doc_familiar_4 = $event;
     })
-  }, [_hoisted_42, _hoisted_43, _hoisted_44, _hoisted_45], 544
+  }, [_hoisted_123], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_46, [_hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_doc_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_132, [_hoisted_133, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "doc_familiar_4",
@@ -2399,7 +2316,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_48, [_hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.doc_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_134, [_hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "nombre_familiar_4",
@@ -2411,19 +2328,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_50, [_hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-    type: "text",
-    "class": "form-control",
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.nombre_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_136, [_hoisted_137, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "parentesco_familiar_4",
+    "class": "form-select",
     onChange: _cache[31] || (_cache[31] = function () {
       return $options.guardarDatos && $options.guardarDatos.apply($options, arguments);
     }),
     "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
       return $data.datos.parentesco_familiar_4 = $event;
     })
-  }, null, 544
+  }, [_hoisted_138], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.parentesco_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.parentesco_familiar_4]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "btn btn-primary me-md-2",
     to: {
       name: 'Financiero'
@@ -2432,7 +2348,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
         name: "caret-back-outline"
-      }), _hoisted_53];
+      }), _hoisted_161];
     }),
     _: 1
     /* STABLE */
@@ -2444,7 +2360,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+      return [_hoisted_162, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
         name: "caret-forward-outline"
       })];
     }),

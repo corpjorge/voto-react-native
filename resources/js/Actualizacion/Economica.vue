@@ -54,8 +54,15 @@
       <div class="col-md-3">
         <label for="tipo_contrato" class="form-label">Tipo de contrato</label>
         <select id="tipo_contrato" class="form-select" @change="guardarDatos" v-model="datos.tipo_contrato">
-          <option value="Fijo">Fijo</option>
-          <option value="Indefinido">Indefinido</option>
+            <option value="PS">PRESTACION DE SERVICIOS</option>
+            <option value="TF">TERMINO FIJO</option>
+            <option value="CA">CARRERA ADMINISTRATIVA</option>
+            <option value="PR">PROVISIONALIDAD</option>
+            <option value="LN">LIBRE NOMBRAMIENTO</option>
+            <option value="TI">TERMINO INDEFINIDO</option>
+            <option value="PT">PLANTA TEMPORAL</option>
+            <option value="OC">OTRAS FORMAS DE CONTRATACION</option>
+            <option value="CO">CULMINACION DE OBRA</option>
         </select>
       </div>
 
@@ -178,8 +185,31 @@
       </div>
 
       <div class="col-md-3">
-        <label for="parantesco_familia_PEP_vinculado_1" class="form-label">Parentesco</label>
-        <input type="text" class="form-control" id="parantesco_familia_PEP_vinculado_1" @change="guardarDatos" v-model="datos.parantesco_familia_PEP_vinculado_1">
+          <label for="parantesco_familia_PEP_vinculado_1" class="form-label">Parentesco</label>
+          <select id="parantesco_familia_PEP_vinculado_1" class="form-select" @change="guardarDatos" v-model="datos.parantesco_familia_PEP_vinculado_1">
+              <option value="V">TERCERO BENEFICIARIO</option>
+              <option value="W">NIÑERA</option>
+              <option value="H">HIJO</option>
+              <option value="R">PRIMO</option>
+              <option value="U">CUÑADO</option>
+              <option value="P">PADRE</option>
+              <option value="M">MADRE</option>
+              <option value="C">CONYUGE</option>
+              <option value="T">TIO</option>
+              <option value="B">SOBRINO</option>
+              <option value="A">ABUELO</option>
+              <option value="5">PADRASTRO</option>
+              <option value="J">HIJO ADOPTIVO</option>
+              <option value="O">OTROS</option>
+              <option value="N">NIETO</option>
+              <option value="Z">COMPAÑERO PERMANENTE</option>
+              <option value="E">HERMANO</option>
+              <option value="S">SUEGRO</option>
+              <option value="2">HIJASTRO</option>
+              <option value="4">PADRE DE CRIANZA</option>
+              <option value="L">MADRE ADOPTANTE</option>
+              <option value="F">PADRE ADOPTANTE</option>
+          </select>
       </div>
 
       <div class="col-md-3">
@@ -197,10 +227,33 @@
         <input type="number" class="form-control" id="telefono_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.telefono_familia_PEP_vinculado_2">
       </div>
 
-      <div class="col-md-3">
-        <label for="parantesco_familia_PEP_vinculado_2" class="form-label">Parentesco</label>
-        <input type="text" class="form-control" id="parantesco_familia_PEP_vinculado_2" @change="guardarDatos" v-model="datos.parantesco_familia_PEP_vinculado_2">
-      </div>
+        <div class="col-md-3">
+            <label for="parantesco_familia_PEP_vinculado_2" class="form-label">Parentesco</label>
+            <select id="parantesco_familia_PEP_vinculado_2" class="form-select" @change="guardarDatos" v-model="datos.parantesco_familia_PEP_vinculado_2">
+                <option value="V">TERCERO BENEFICIARIO</option>
+                <option value="W">NIÑERA</option>
+                <option value="H">HIJO</option>
+                <option value="R">PRIMO</option>
+                <option value="U">CUÑADO</option>
+                <option value="P">PADRE</option>
+                <option value="M">MADRE</option>
+                <option value="C">CONYUGE</option>
+                <option value="T">TIO</option>
+                <option value="B">SOBRINO</option>
+                <option value="A">ABUELO</option>
+                <option value="5">PADRASTRO</option>
+                <option value="J">HIJO ADOPTIVO</option>
+                <option value="O">OTROS</option>
+                <option value="N">NIETO</option>
+                <option value="Z">COMPAÑERO PERMANENTE</option>
+                <option value="E">HERMANO</option>
+                <option value="S">SUEGRO</option>
+                <option value="2">HIJASTRO</option>
+                <option value="4">PADRE DE CRIANZA</option>
+                <option value="L">MADRE ADOPTANTE</option>
+                <option value="F">PADRE ADOPTANTE</option>
+            </select>
+        </div>
 
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <router-link class="btn btn-primary me-md-2"  :to="{ name: 'Localizacion' } ">

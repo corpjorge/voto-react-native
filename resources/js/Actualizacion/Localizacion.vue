@@ -406,14 +406,14 @@
         <div class="col-md-3">
             <label for="departamento" class="form-label">Departamento</label>
             <select id="departamento" class="form-select" @change="buscarCiudad" v-model="datos.departamento">
-                <option v-for="departento in departentos" :key="departento.id" :value="departento.id_departamento">{{ departento.departamento }}</option>
+                <option v-for="departento in departentos" :key="departento.code" :value="departento.code">{{ departento.name }}</option>
             </select>
         </div>
 
         <div class="col-md-3">
             <label for="ciudad" class="form-label">Cuidad</label>
             <select id="ciudad" class="form-select" @change="guardarDatos" v-model="datos.ciudad">
-                <option v-for="municipio in ciudades" :key="municipio.id_municipio" :value="municipio.id_municipio">{{ municipio.municipio }}</option>
+                <option v-for="municipio in ciudades" :key="municipio.code_dep_id" :value="municipio.code_dep_id">{{ municipio.name }}</option>
             </select>
         </div>
 
@@ -434,9 +434,11 @@
       <div class="col-md-3">
         <label for="tipo_vivienda" class="form-label">Tipo vivienda</label>
         <select id="tipo_vivienda" class="form-select" @change="guardarDatos" v-model="datos.tipo_vivienda">
-          <option value="Propia">Propia</option>
-          <option value="Familiar">Familiar</option>
-          <option value="Arrendada">Arrendada</option>
+            <option value="P">PROPIA</option>
+            <option value="F">FAMILIAR</option>
+            <option value="A">ARRIENDO</option>
+            <option value="I">INMUEBLE CON HIPOTECA</option>
+            <option value="O">OTRA</option>
         </select>
       </div>
 

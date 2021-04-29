@@ -2091,50 +2091,34 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Casa"
-}, "Casa", -1
-/* HOISTED */
-);
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"P\">PROPIA</option><option value=\"F\">FAMILIAR</option><option value=\"A\">ARRIENDO</option><option value=\"I\">INMUEBLE CON HIPOTECA</option><option value=\"O\">OTRA</option>", 5);
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Apto"
-}, "Apto", -1
-/* HOISTED */
-);
-
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Finca"
-}, "Finca", -1
-/* HOISTED */
-);
-
-var _hoisted_26 = {
+var _hoisted_28 = {
   "class": "col-md-3"
 };
 
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "direccion_bienes_1",
   "class": "form-label"
 }, "Dirección", -1
 /* HOISTED */
 );
 
-var _hoisted_28 = {
+var _hoisted_30 = {
   "class": "modal fade",
   id: "exampleModal",
   tabindex: "-1",
   "aria-labelledby": "exampleModalLabel",
   "aria-hidden": "true"
 };
-var _hoisted_29 = {
+var _hoisted_31 = {
   "class": "modal-dialog modal-xl"
 };
-var _hoisted_30 = {
+var _hoisted_32 = {
   "class": "modal-content"
 };
 
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "modal-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", {
   "class": "modal-title",
@@ -2148,189 +2132,178 @@ var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_32 = {
+var _hoisted_34 = {
   "class": "modal-body"
 };
-var _hoisted_33 = {
+var _hoisted_35 = {
   id: "address_form"
 };
 
-var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Sección principal", -1
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Sección principal", -1
 /* HOISTED */
 );
 
-var _hoisted_35 = {
+var _hoisted_37 = {
   "class": "row"
 };
-var _hoisted_36 = {
+var _hoisted_38 = {
   "class": "col-md-3"
 };
-var _hoisted_37 = {
+var _hoisted_39 = {
   "class": "form-group"
 };
 
-var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"AC\">Avenida Calle</option><option value=\"AD\">Administración</option><option value=\"AGN\">Agrupación</option><option value=\"AK\">Avenida Carrera</option><option value=\"AL\">Altillo</option><option value=\"APTO\">Apartamento</option><option value=\"AS\">Apartamento Sótano</option><option value=\"AUTOP\">Autopista</option><option value=\"AV\">Avenida</option><option value=\"BG\">Bodega</option><option value=\"BL\">Bloque</option><option value=\"BR\">Barrio</option><option value=\"CA\">Casa</option><option value=\"CAS\">Caserío</option><option value=\"CCV\">Circunvalar</option><option value=\"CDM\">Condominio</option><option value=\"CE\">Centro</option><option value=\"CECO\">Centro Comercial</option><option value=\"CEL\">Célula</option><option value=\"CEUR\">Centro Urbano</option><option value=\"CIR\">Circular</option><option value=\"CL\">Calle</option><option value=\"CLJ\">Callejón</option><option value=\"CM\">Cabecera Municipal</option><option value=\"CN\">Camino</option><option value=\"CO\">Corregimiento</option><option value=\"CONJ\">Conjunto</option><option value=\"CS\">Consultorio</option><option value=\"CT\">Carretera</option><option value=\"DG\">Diagonal</option><option value=\"DP\">Depósito</option><option value=\"DS\">Depósito Sótano</option><option value=\"ED\">Edificio</option><option value=\"EN\">Entrada</option><option value=\"ESQ\">Esquina</option><option value=\"ESTE\">Este</option><option value=\"ET\">Etapa</option><option value=\"FCA\">Finca</option><option value=\"GJ\">Garaje</option><option value=\"GR\">Grada</option><option value=\"GS\">Garaje Sótano</option><option value=\"IN\">Interior</option><option value=\"INF\">Inferior</option><option value=\"IP\">Inspección de Policía</option><option value=\"KM\">Kilómetro</option><option value=\"KR\">Carrera</option><option value=\"LC\">Local</option><option value=\"LM\">Local Mezzanine</option><option value=\"LS\">Local Sótano</option><option value=\"LT\">Lote</option><option value=\"MD\">Módulo</option><option value=\"MJ\">Mejora</option><option value=\"MN\">Mezzanine</option><option value=\"MUN\">Municipio</option><option value=\"MZ\">Manzana</option><option value=\"MZTA\">Manzanita</option><option value=\"NCO\">Núcleo</option><option value=\"NORTE\">Norte</option><option value=\"OCC\">Occidente</option><option value=\"OESTE\">Oeste</option><option value=\"OF\">Oficina</option><option value=\"OS\">Oficina Sótano</option><option value=\"PA\">Parcela</option><option value=\"PCN\">Parcelación</option><option value=\"PD\">Predio</option><option value=\"PH\">Penthouse</option><option value=\"PI\">Piso</option><option value=\"PN\">Puente</option><option value=\"PPAL\">Principal</option><option value=\"PSJ\">Pasaje</option><option value=\"PT\">Portería</option><option value=\"QDA\">Quebrada</option><option value=\"SA\">Salón</option><option value=\"SEC\">Sector</option><option value=\"SMZ\">Supermanzana</option><option value=\"SS\">Semisótano</option><option value=\"SU\">Suite</option><option value=\"SUR\">Sur</option><option value=\"TO\">Torre</option><option value=\"TRL\">Troncal</option><option value=\"TV\">Transversal</option><option value=\"TZ\">Terraza</option><option value=\"UN\">Unidad</option><option value=\"URB\">Urbanización</option><option value=\"VDA\">Vereda</option><option value=\"VIA\">Vía</option><option value=\"ZN\">Zona</option>", 87);
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"AC\">Avenida Calle</option><option value=\"AD\">Administración</option><option value=\"AGN\">Agrupación</option><option value=\"AK\">Avenida Carrera</option><option value=\"AL\">Altillo</option><option value=\"APTO\">Apartamento</option><option value=\"AS\">Apartamento Sótano</option><option value=\"AUTOP\">Autopista</option><option value=\"AV\">Avenida</option><option value=\"BG\">Bodega</option><option value=\"BL\">Bloque</option><option value=\"BR\">Barrio</option><option value=\"CA\">Casa</option><option value=\"CAS\">Caserío</option><option value=\"CCV\">Circunvalar</option><option value=\"CDM\">Condominio</option><option value=\"CE\">Centro</option><option value=\"CECO\">Centro Comercial</option><option value=\"CEL\">Célula</option><option value=\"CEUR\">Centro Urbano</option><option value=\"CIR\">Circular</option><option value=\"CL\">Calle</option><option value=\"CLJ\">Callejón</option><option value=\"CM\">Cabecera Municipal</option><option value=\"CN\">Camino</option><option value=\"CO\">Corregimiento</option><option value=\"CONJ\">Conjunto</option><option value=\"CS\">Consultorio</option><option value=\"CT\">Carretera</option><option value=\"DG\">Diagonal</option><option value=\"DP\">Depósito</option><option value=\"DS\">Depósito Sótano</option><option value=\"ED\">Edificio</option><option value=\"EN\">Entrada</option><option value=\"ESQ\">Esquina</option><option value=\"ESTE\">Este</option><option value=\"ET\">Etapa</option><option value=\"FCA\">Finca</option><option value=\"GJ\">Garaje</option><option value=\"GR\">Grada</option><option value=\"GS\">Garaje Sótano</option><option value=\"IN\">Interior</option><option value=\"INF\">Inferior</option><option value=\"IP\">Inspección de Policía</option><option value=\"KM\">Kilómetro</option><option value=\"KR\">Carrera</option><option value=\"LC\">Local</option><option value=\"LM\">Local Mezzanine</option><option value=\"LS\">Local Sótano</option><option value=\"LT\">Lote</option><option value=\"MD\">Módulo</option><option value=\"MJ\">Mejora</option><option value=\"MN\">Mezzanine</option><option value=\"MUN\">Municipio</option><option value=\"MZ\">Manzana</option><option value=\"MZTA\">Manzanita</option><option value=\"NCO\">Núcleo</option><option value=\"NORTE\">Norte</option><option value=\"OCC\">Occidente</option><option value=\"OESTE\">Oeste</option><option value=\"OF\">Oficina</option><option value=\"OS\">Oficina Sótano</option><option value=\"PA\">Parcela</option><option value=\"PCN\">Parcelación</option><option value=\"PD\">Predio</option><option value=\"PH\">Penthouse</option><option value=\"PI\">Piso</option><option value=\"PN\">Puente</option><option value=\"PPAL\">Principal</option><option value=\"PSJ\">Pasaje</option><option value=\"PT\">Portería</option><option value=\"QDA\">Quebrada</option><option value=\"SA\">Salón</option><option value=\"SEC\">Sector</option><option value=\"SMZ\">Supermanzana</option><option value=\"SS\">Semisótano</option><option value=\"SU\">Suite</option><option value=\"SUR\">Sur</option><option value=\"TO\">Torre</option><option value=\"TRL\">Troncal</option><option value=\"TV\">Transversal</option><option value=\"TZ\">Terraza</option><option value=\"UN\">Unidad</option><option value=\"URB\">Urbanización</option><option value=\"VDA\">Vereda</option><option value=\"VIA\">Vía</option><option value=\"ZN\">Zona</option>", 87);
 
-var _hoisted_125 = {
-  "class": "col-md-3"
-};
-var _hoisted_126 = {
-  "class": "form-group"
-};
 var _hoisted_127 = {
   "class": "col-md-3"
 };
 var _hoisted_128 = {
   "class": "form-group"
 };
-
-var _hoisted_129 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
-
-var _hoisted_146 = {
+var _hoisted_129 = {
   "class": "col-md-3"
 };
-var _hoisted_147 = {
+var _hoisted_130 = {
   "class": "form-group"
 };
 
-var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+var _hoisted_131 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
 
-var _hoisted_153 = {
-  "class": "row"
-};
-var _hoisted_154 = {
+var _hoisted_148 = {
   "class": "col-md-3"
 };
+var _hoisted_149 = {
+  "class": "form-group"
+};
+
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+
 var _hoisted_155 = {
-  "class": "form-group"
+  "class": "row"
 };
 var _hoisted_156 = {
-  "class": "input-group"
+  "class": "col-md-3"
 };
 var _hoisted_157 = {
-  "class": "col-md-3"
+  "class": "form-group"
 };
 var _hoisted_158 = {
-  "class": "form-group"
+  "class": "input-group"
 };
-
-var _hoisted_159 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
-
-var _hoisted_176 = {
+var _hoisted_159 = {
   "class": "col-md-3"
 };
-var _hoisted_177 = {
+var _hoisted_160 = {
   "class": "form-group"
 };
 
-var _hoisted_178 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+var _hoisted_161 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
 
-var _hoisted_183 = {
+var _hoisted_178 = {
   "class": "col-md-3"
 };
-var _hoisted_184 = {
+var _hoisted_179 = {
   "class": "form-group"
 };
+
+var _hoisted_180 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+
 var _hoisted_185 = {
+  "class": "col-md-3"
+};
+var _hoisted_186 = {
+  "class": "form-group"
+};
+var _hoisted_187 = {
   "class": "input-group"
 };
 
-var _hoisted_186 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Complementos", -1
+var _hoisted_188 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Complementos", -1
 /* HOISTED */
 );
 
-var _hoisted_187 = {
-  "class": "row"
-};
-var _hoisted_188 = {
-  "class": "col-md-4"
-};
 var _hoisted_189 = {
-  "class": "form-group"
+  "class": "row"
 };
-
-var _hoisted_190 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
-
-var _hoisted_227 = {
+var _hoisted_190 = {
   "class": "col-md-4"
 };
-var _hoisted_228 = {
+var _hoisted_191 = {
   "class": "form-group"
 };
+
+var _hoisted_192 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
+
 var _hoisted_229 = {
-  "class": "row"
+  "class": "col-md-4"
 };
 var _hoisted_230 = {
-  "class": "col-md-4"
+  "class": "form-group"
 };
 var _hoisted_231 = {
-  "class": "form-group"
+  "class": "row"
 };
-
-var _hoisted_232 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
-
-var _hoisted_269 = {
+var _hoisted_232 = {
   "class": "col-md-4"
 };
-var _hoisted_270 = {
+var _hoisted_233 = {
   "class": "form-group"
 };
+
+var _hoisted_234 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
+
 var _hoisted_271 = {
-  "class": "row"
+  "class": "col-md-4"
 };
 var _hoisted_272 = {
-  "class": "col-md-4"
+  "class": "form-group"
 };
 var _hoisted_273 = {
-  "class": "form-group"
-};
-
-var _hoisted_274 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
-
-var _hoisted_311 = {
-  "class": "col-md-4"
-};
-var _hoisted_312 = {
-  "class": "form-group"
-};
-
-var _hoisted_313 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", null, null, -1
-/* HOISTED */
-);
-
-var _hoisted_314 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Resultado", -1
-/* HOISTED */
-);
-
-var _hoisted_315 = {
   "class": "row"
 };
-var _hoisted_316 = {
-  "class": "col"
+var _hoisted_274 = {
+  "class": "col-md-4"
 };
-var _hoisted_317 = {
+var _hoisted_275 = {
   "class": "form-group"
 };
+
+var _hoisted_276 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
+
+var _hoisted_313 = {
+  "class": "col-md-4"
+};
+var _hoisted_314 = {
+  "class": "form-group"
+};
+
+var _hoisted_315 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_316 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Resultado", -1
+/* HOISTED */
+);
+
+var _hoisted_317 = {
+  "class": "row"
+};
 var _hoisted_318 = {
+  "class": "col"
+};
+var _hoisted_319 = {
+  "class": "form-group"
+};
+var _hoisted_320 = {
   "class": "modal-footer"
 };
 
-var _hoisted_319 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+var _hoisted_321 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
   "class": "btn btn-secondary",
   "data-bs-dismiss": "modal"
 }, "Cerrar", -1
-/* HOISTED */
-);
-
-var _hoisted_320 = {
-  "class": "col-md-3"
-};
-
-var _hoisted_321 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "ciudad_bienes_1",
-  "class": "form-label"
-}, "Ciudad", -1
 /* HOISTED */
 );
 
@@ -2339,9 +2312,9 @@ var _hoisted_322 = {
 };
 
 var _hoisted_323 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "valor_bienes_1",
+  "for": "ciudad_bienes_1",
   "class": "form-label"
-}, "Valor comercial", -1
+}, "Ciudad", -1
 /* HOISTED */
 );
 
@@ -2350,56 +2323,51 @@ var _hoisted_324 = {
 };
 
 var _hoisted_325 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "valor_bienes_1",
+  "class": "form-label"
+}, "Valor comercial", -1
+/* HOISTED */
+);
+
+var _hoisted_326 = {
+  "class": "col-md-3"
+};
+
+var _hoisted_327 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "tipo_bienes_2",
   "class": "form-label"
 }, "Tipo vivienda", -1
 /* HOISTED */
 );
 
-var _hoisted_326 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Casa"
-}, "Casa", -1
-/* HOISTED */
-);
+var _hoisted_328 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"P\">PROPIA</option><option value=\"F\">FAMILIAR</option><option value=\"A\">ARRIENDO</option><option value=\"I\">INMUEBLE CON HIPOTECA</option><option value=\"O\">OTRA</option>", 5);
 
-var _hoisted_327 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Apto"
-}, "Apto", -1
-/* HOISTED */
-);
-
-var _hoisted_328 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
-  value: "Finca"
-}, "Finca", -1
-/* HOISTED */
-);
-
-var _hoisted_329 = {
+var _hoisted_333 = {
   "class": "col-md-3"
 };
 
-var _hoisted_330 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_334 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "direccion_bienes_2",
   "class": "form-label"
 }, "Dirección", -1
 /* HOISTED */
 );
 
-var _hoisted_331 = {
+var _hoisted_335 = {
   "class": "modal fade",
   id: "Modal2",
   tabindex: "-1",
   "aria-labelledby": "Modal2",
   "aria-hidden": "true"
 };
-var _hoisted_332 = {
+var _hoisted_336 = {
   "class": "modal-dialog modal-xl"
 };
-var _hoisted_333 = {
+var _hoisted_337 = {
   "class": "modal-content"
 };
 
-var _hoisted_334 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_338 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "modal-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", {
   "class": "modal-title",
@@ -2413,174 +2381,174 @@ var _hoisted_334 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)
 /* HOISTED */
 );
 
-var _hoisted_335 = {
+var _hoisted_339 = {
   "class": "modal-body"
 };
-var _hoisted_336 = {
+var _hoisted_340 = {
   id: "address_formh"
 };
 
-var _hoisted_337 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Sección principal", -1
+var _hoisted_341 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Sección principal", -1
 /* HOISTED */
 );
 
-var _hoisted_338 = {
+var _hoisted_342 = {
   "class": "row"
 };
-var _hoisted_339 = {
+var _hoisted_343 = {
   "class": "col-md-3"
 };
-var _hoisted_340 = {
+var _hoisted_344 = {
   "class": "form-group"
 };
 
-var _hoisted_341 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"AC\">Avenida Calle</option><option value=\"AD\">Administración</option><option value=\"AGN\">Agrupación</option><option value=\"AK\">Avenida Carrera</option><option value=\"AL\">Altillo</option><option value=\"APTO\">Apartamento</option><option value=\"AS\">Apartamento Sótano</option><option value=\"AUTOP\">Autopista</option><option value=\"AV\">Avenida</option><option value=\"BG\">Bodega</option><option value=\"BL\">Bloque</option><option value=\"BR\">Barrio</option><option value=\"CA\">Casa</option><option value=\"CAS\">Caserío</option><option value=\"CCV\">Circunvalar</option><option value=\"CDM\">Condominio</option><option value=\"CE\">Centro</option><option value=\"CECO\">Centro Comercial</option><option value=\"CEL\">Célula</option><option value=\"CEUR\">Centro Urbano</option><option value=\"CIR\">Circular</option><option value=\"CL\">Calle</option><option value=\"CLJ\">Callejón</option><option value=\"CM\">Cabecera Municipal</option><option value=\"CN\">Camino</option><option value=\"CO\">Corregimiento</option><option value=\"CONJ\">Conjunto</option><option value=\"CS\">Consultorio</option><option value=\"CT\">Carretera</option><option value=\"DG\">Diagonal</option><option value=\"DP\">Depósito</option><option value=\"DS\">Depósito Sótano</option><option value=\"ED\">Edificio</option><option value=\"EN\">Entrada</option><option value=\"ESQ\">Esquina</option><option value=\"ESTE\">Este</option><option value=\"ET\">Etapa</option><option value=\"FCA\">Finca</option><option value=\"GJ\">Garaje</option><option value=\"GR\">Grada</option><option value=\"GS\">Garaje Sótano</option><option value=\"IN\">Interior</option><option value=\"INF\">Inferior</option><option value=\"IP\">Inspección de Policía</option><option value=\"KM\">Kilómetro</option><option value=\"KR\">Carrera</option><option value=\"LC\">Local</option><option value=\"LM\">Local Mezzanine</option><option value=\"LS\">Local Sótano</option><option value=\"LT\">Lote</option><option value=\"MD\">Módulo</option><option value=\"MJ\">Mejora</option><option value=\"MN\">Mezzanine</option><option value=\"MUN\">Municipio</option><option value=\"MZ\">Manzana</option><option value=\"MZTA\">Manzanita</option><option value=\"NCO\">Núcleo</option><option value=\"NORTE\">Norte</option><option value=\"OCC\">Occidente</option><option value=\"OESTE\">Oeste</option><option value=\"OF\">Oficina</option><option value=\"OS\">Oficina Sótano</option><option value=\"PA\">Parcela</option><option value=\"PCN\">Parcelación</option><option value=\"PD\">Predio</option><option value=\"PH\">Penthouse</option><option value=\"PI\">Piso</option><option value=\"PN\">Puente</option><option value=\"PPAL\">Principal</option><option value=\"PSJ\">Pasaje</option><option value=\"PT\">Portería</option><option value=\"QDA\">Quebrada</option><option value=\"SA\">Salón</option><option value=\"SEC\">Sector</option><option value=\"SMZ\">Supermanzana</option><option value=\"SS\">Semisótano</option><option value=\"SU\">Suite</option><option value=\"SUR\">Sur</option><option value=\"TO\">Torre</option><option value=\"TRL\">Troncal</option><option value=\"TV\">Transversal</option><option value=\"TZ\">Terraza</option><option value=\"UN\">Unidad</option><option value=\"URB\">Urbanización</option><option value=\"VDA\">Vereda</option><option value=\"VIA\">Vía</option><option value=\"ZN\">Zona</option>", 87);
+var _hoisted_345 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"AC\">Avenida Calle</option><option value=\"AD\">Administración</option><option value=\"AGN\">Agrupación</option><option value=\"AK\">Avenida Carrera</option><option value=\"AL\">Altillo</option><option value=\"APTO\">Apartamento</option><option value=\"AS\">Apartamento Sótano</option><option value=\"AUTOP\">Autopista</option><option value=\"AV\">Avenida</option><option value=\"BG\">Bodega</option><option value=\"BL\">Bloque</option><option value=\"BR\">Barrio</option><option value=\"CA\">Casa</option><option value=\"CAS\">Caserío</option><option value=\"CCV\">Circunvalar</option><option value=\"CDM\">Condominio</option><option value=\"CE\">Centro</option><option value=\"CECO\">Centro Comercial</option><option value=\"CEL\">Célula</option><option value=\"CEUR\">Centro Urbano</option><option value=\"CIR\">Circular</option><option value=\"CL\">Calle</option><option value=\"CLJ\">Callejón</option><option value=\"CM\">Cabecera Municipal</option><option value=\"CN\">Camino</option><option value=\"CO\">Corregimiento</option><option value=\"CONJ\">Conjunto</option><option value=\"CS\">Consultorio</option><option value=\"CT\">Carretera</option><option value=\"DG\">Diagonal</option><option value=\"DP\">Depósito</option><option value=\"DS\">Depósito Sótano</option><option value=\"ED\">Edificio</option><option value=\"EN\">Entrada</option><option value=\"ESQ\">Esquina</option><option value=\"ESTE\">Este</option><option value=\"ET\">Etapa</option><option value=\"FCA\">Finca</option><option value=\"GJ\">Garaje</option><option value=\"GR\">Grada</option><option value=\"GS\">Garaje Sótano</option><option value=\"IN\">Interior</option><option value=\"INF\">Inferior</option><option value=\"IP\">Inspección de Policía</option><option value=\"KM\">Kilómetro</option><option value=\"KR\">Carrera</option><option value=\"LC\">Local</option><option value=\"LM\">Local Mezzanine</option><option value=\"LS\">Local Sótano</option><option value=\"LT\">Lote</option><option value=\"MD\">Módulo</option><option value=\"MJ\">Mejora</option><option value=\"MN\">Mezzanine</option><option value=\"MUN\">Municipio</option><option value=\"MZ\">Manzana</option><option value=\"MZTA\">Manzanita</option><option value=\"NCO\">Núcleo</option><option value=\"NORTE\">Norte</option><option value=\"OCC\">Occidente</option><option value=\"OESTE\">Oeste</option><option value=\"OF\">Oficina</option><option value=\"OS\">Oficina Sótano</option><option value=\"PA\">Parcela</option><option value=\"PCN\">Parcelación</option><option value=\"PD\">Predio</option><option value=\"PH\">Penthouse</option><option value=\"PI\">Piso</option><option value=\"PN\">Puente</option><option value=\"PPAL\">Principal</option><option value=\"PSJ\">Pasaje</option><option value=\"PT\">Portería</option><option value=\"QDA\">Quebrada</option><option value=\"SA\">Salón</option><option value=\"SEC\">Sector</option><option value=\"SMZ\">Supermanzana</option><option value=\"SS\">Semisótano</option><option value=\"SU\">Suite</option><option value=\"SUR\">Sur</option><option value=\"TO\">Torre</option><option value=\"TRL\">Troncal</option><option value=\"TV\">Transversal</option><option value=\"TZ\">Terraza</option><option value=\"UN\">Unidad</option><option value=\"URB\">Urbanización</option><option value=\"VDA\">Vereda</option><option value=\"VIA\">Vía</option><option value=\"ZN\">Zona</option>", 87);
 
-var _hoisted_428 = {
+var _hoisted_432 = {
   "class": "col-md-3"
 };
-var _hoisted_429 = {
+var _hoisted_433 = {
   "class": "form-group"
 };
-var _hoisted_430 = {
+var _hoisted_434 = {
   "class": "col-md-3"
 };
-var _hoisted_431 = {
-  "class": "form-group"
-};
-
-var _hoisted_432 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
-
-var _hoisted_449 = {
-  "class": "col-md-3"
-};
-var _hoisted_450 = {
+var _hoisted_435 = {
   "class": "form-group"
 };
 
-var _hoisted_451 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+var _hoisted_436 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
 
-var _hoisted_456 = {
-  "class": "row"
-};
-var _hoisted_457 = {
+var _hoisted_453 = {
   "class": "col-md-3"
 };
-var _hoisted_458 = {
+var _hoisted_454 = {
   "class": "form-group"
 };
-var _hoisted_459 = {
-  "class": "input-group"
-};
+
+var _hoisted_455 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+
 var _hoisted_460 = {
-  "class": "col-md-3"
+  "class": "row"
 };
 var _hoisted_461 = {
-  "class": "form-group"
-};
-
-var _hoisted_462 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
-
-var _hoisted_479 = {
   "class": "col-md-3"
 };
-var _hoisted_480 = {
+var _hoisted_462 = {
   "class": "form-group"
 };
-
-var _hoisted_481 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
-
-var _hoisted_486 = {
+var _hoisted_463 = {
+  "class": "input-group"
+};
+var _hoisted_464 = {
   "class": "col-md-3"
 };
-var _hoisted_487 = {
+var _hoisted_465 = {
   "class": "form-group"
 };
-var _hoisted_488 = {
+
+var _hoisted_466 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"A\">A</option><option value=\"AA\">AA</option><option value=\"B\">B</option><option value=\"BB\">BB</option><option value=\"C\">C</option><option value=\"CC\">CC</option><option value=\"D\">D</option><option value=\"DD\">DD</option><option value=\"E\">E</option><option value=\"EE\">EE</option><option value=\"F\">F</option><option value=\"FF\">FF</option><option value=\"G\">G</option><option value=\"GG\">GG</option><option value=\"H\">H</option><option value=\"HH\">HH</option>", 17);
+
+var _hoisted_483 = {
+  "class": "col-md-3"
+};
+var _hoisted_484 = {
+  "class": "form-group"
+};
+
+var _hoisted_485 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"NORTE\">NORTE</option><option value=\"ORIENTE\">ORIENTE</option><option value=\"SUR\">SUR</option><option value=\"OCCIDENTE\">OCCIDENTE</option>", 5);
+
+var _hoisted_490 = {
+  "class": "col-md-3"
+};
+var _hoisted_491 = {
+  "class": "form-group"
+};
+var _hoisted_492 = {
   "class": "input-group"
 };
 
-var _hoisted_489 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Complementos", -1
+var _hoisted_493 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Complementos", -1
 /* HOISTED */
 );
 
-var _hoisted_490 = {
+var _hoisted_494 = {
   "class": "row"
 };
-var _hoisted_491 = {
+var _hoisted_495 = {
   "class": "col-md-4"
 };
-var _hoisted_492 = {
+var _hoisted_496 = {
   "class": "form-group"
 };
 
-var _hoisted_493 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
+var _hoisted_497 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
 
-var _hoisted_530 = {
-  "class": "col-md-4"
-};
-var _hoisted_531 = {
-  "class": "form-group"
-};
-var _hoisted_532 = {
-  "class": "row"
-};
-var _hoisted_533 = {
-  "class": "col-md-4"
-};
 var _hoisted_534 = {
-  "class": "form-group"
-};
-
-var _hoisted_535 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
-
-var _hoisted_572 = {
   "class": "col-md-4"
 };
-var _hoisted_573 = {
+var _hoisted_535 = {
   "class": "form-group"
 };
-var _hoisted_574 = {
+var _hoisted_536 = {
   "class": "row"
 };
-var _hoisted_575 = {
+var _hoisted_537 = {
   "class": "col-md-4"
 };
+var _hoisted_538 = {
+  "class": "form-group"
+};
+
+var _hoisted_539 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
+
 var _hoisted_576 = {
-  "class": "form-group"
-};
-
-var _hoisted_577 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
-
-var _hoisted_614 = {
   "class": "col-md-4"
 };
-var _hoisted_615 = {
+var _hoisted_577 = {
+  "class": "form-group"
+};
+var _hoisted_578 = {
+  "class": "row"
+};
+var _hoisted_579 = {
+  "class": "col-md-4"
+};
+var _hoisted_580 = {
   "class": "form-group"
 };
 
-var _hoisted_616 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", null, null, -1
-/* HOISTED */
-);
-
-var _hoisted_617 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Resultado", -1
-/* HOISTED */
-);
+var _hoisted_581 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\"></option><option value=\"CA\">CASA</option><option value=\"APTO\">APARTAMENTO</option><option value=\"CONJ\">CONJUNTO RESIDENCIAL</option><option value=\"CC\">CENTRO COMERCIAL</option><option value=\"CRT\">CARRETERA</option><option value=\"CS\">CONSULTORIO</option><option value=\"DPTO\">DEPARTAMENTO</option><option value=\"ED\">EDIFICIO</option><option value=\"EN\">ENTRADA</option><option value=\"ET\">ETAPA</option><option value=\"FCA\">FINCA</option><option value=\"HC\">HACIENDA</option><option value=\"IN\">INTERIOR</option><option value=\"KM\">KILOMETRO</option><option value=\"LC\">LOCAL</option><option value=\"LT\">LOTE</option><option value=\"OF\">OFICINA</option><option value=\"P\">PISO</option><option value=\"PD\">PREDIO</option><option value=\"PH\">PENTHOUSE</option><option value=\"PL\">PLANTA</option><option value=\"PT\">PUESTO</option><option value=\"SA\">SALON</option><option value=\"SD\">SALIDA</option><option value=\"SEC\">SECTOR</option><option value=\"SL\">SOLAR</option><option value=\"ST\">SOTANO</option><option value=\"SUITE\">SUITE</option><option value=\"TER\">TERMINAL</option><option value=\"TZ\">TERRAZA</option><option value=\"TO\">TORRE</option><option value=\"UN\">UNIDAD</option><option value=\"UR\">UNIDAD RESIDENCIAL</option><option value=\"URB\">URBANIZACION</option><option value=\"VRD\">VEREDA</option><option value=\"Z\">ZONA</option>", 37);
 
 var _hoisted_618 = {
-  "class": "row"
+  "class": "col-md-4"
 };
 var _hoisted_619 = {
-  "class": "col"
-};
-var _hoisted_620 = {
   "class": "form-group"
 };
-var _hoisted_621 = {
+
+var _hoisted_620 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_621 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", null, "Resultado", -1
+/* HOISTED */
+);
+
+var _hoisted_622 = {
+  "class": "row"
+};
+var _hoisted_623 = {
+  "class": "col"
+};
+var _hoisted_624 = {
+  "class": "form-group"
+};
+var _hoisted_625 = {
   "class": "modal-footer"
 };
 
-var _hoisted_622 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+var _hoisted_626 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
   "class": "btn btn-secondary",
   "data-bs-dismiss": "modal"
@@ -2588,80 +2556,58 @@ var _hoisted_622 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)
 /* HOISTED */
 );
 
-var _hoisted_623 = {
+var _hoisted_627 = {
   "class": "col-md-3"
 };
 
-var _hoisted_624 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_628 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "ciudad_bienes_2",
   "class": "form-label"
 }, "Ciudad", -1
 /* HOISTED */
 );
 
-var _hoisted_625 = {
+var _hoisted_629 = {
   "class": "col-md-3"
 };
 
-var _hoisted_626 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_630 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "valor_bienes_2",
   "class": "form-label"
 }, "Valor comercial", -1
 /* HOISTED */
 );
 
-var _hoisted_627 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", null, "Descripcíon activos vehículos", -1
+var _hoisted_631 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", null, "Descripcíon activos vehículos", -1
 /* HOISTED */
 );
 
-var _hoisted_628 = {
+var _hoisted_632 = {
   "class": "col-md-2"
 };
 
-var _hoisted_629 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+var _hoisted_633 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "tipo_vehiculo_1",
   "class": "form-label"
 }, "Tipo vehículos", -1
 /* HOISTED */
 );
 
-var _hoisted_630 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_634 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "Particular"
 }, "Particular", -1
 /* HOISTED */
 );
 
-var _hoisted_631 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_635 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "Público"
 }, "Público", -1
 /* HOISTED */
 );
 
-var _hoisted_632 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_636 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "moto"
 }, "moto", -1
-/* HOISTED */
-);
-
-var _hoisted_633 = {
-  "class": "col-md-2"
-};
-
-var _hoisted_634 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "marca_vehiculo_1",
-  "class": "form-label"
-}, "Marca", -1
-/* HOISTED */
-);
-
-var _hoisted_635 = {
-  "class": "col-md-3"
-};
-
-var _hoisted_636 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "modelo_vehiculo_1",
-  "class": "form-label"
-}, "Modelo", -1
 /* HOISTED */
 );
 
@@ -2670,9 +2616,9 @@ var _hoisted_637 = {
 };
 
 var _hoisted_638 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "placa_vehiculo_1",
+  "for": "marca_vehiculo_1",
   "class": "form-label"
-}, "Placa", -1
+}, "Marca", -1
 /* HOISTED */
 );
 
@@ -2681,9 +2627,9 @@ var _hoisted_639 = {
 };
 
 var _hoisted_640 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "valor_vehiculo_1",
+  "for": "modelo_vehiculo_1",
   "class": "form-label"
-}, "Valor comercial", -1
+}, "Modelo", -1
 /* HOISTED */
 );
 
@@ -2692,49 +2638,49 @@ var _hoisted_641 = {
 };
 
 var _hoisted_642 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "placa_vehiculo_1",
+  "class": "form-label"
+}, "Placa", -1
+/* HOISTED */
+);
+
+var _hoisted_643 = {
+  "class": "col-md-3"
+};
+
+var _hoisted_644 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "valor_vehiculo_1",
+  "class": "form-label"
+}, "Valor comercial", -1
+/* HOISTED */
+);
+
+var _hoisted_645 = {
+  "class": "col-md-2"
+};
+
+var _hoisted_646 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "tipo_vehiculo_2",
   "class": "form-label"
 }, "Tipo vehículos", -1
 /* HOISTED */
 );
 
-var _hoisted_643 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_647 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "Particular"
 }, "Particular", -1
 /* HOISTED */
 );
 
-var _hoisted_644 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_648 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "Público"
 }, "Público", -1
 /* HOISTED */
 );
 
-var _hoisted_645 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_649 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "moto"
 }, "moto", -1
-/* HOISTED */
-);
-
-var _hoisted_646 = {
-  "class": "col-md-2"
-};
-
-var _hoisted_647 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "marca_vehiculo_2",
-  "class": "form-label"
-}, "Marca", -1
-/* HOISTED */
-);
-
-var _hoisted_648 = {
-  "class": "col-md-3"
-};
-
-var _hoisted_649 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "modelo_vehiculo_2",
-  "class": "form-label"
-}, "Modelo", -1
 /* HOISTED */
 );
 
@@ -2743,9 +2689,9 @@ var _hoisted_650 = {
 };
 
 var _hoisted_651 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "placa_vehiculo_2",
+  "for": "marca_vehiculo_2",
   "class": "form-label"
-}, "Placa", -1
+}, "Marca", -1
 /* HOISTED */
 );
 
@@ -2754,20 +2700,20 @@ var _hoisted_652 = {
 };
 
 var _hoisted_653 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "valor_vehiculo_2",
+  "for": "modelo_vehiculo_2",
   "class": "form-label"
-}, "Valor comercial", -1
+}, "Modelo", -1
 /* HOISTED */
 );
 
 var _hoisted_654 = {
-  "class": "col-md-3"
+  "class": "col-md-2"
 };
 
 var _hoisted_655 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "otros_activos",
+  "for": "placa_vehiculo_2",
   "class": "form-label"
-}, "Otros activos", -1
+}, "Placa", -1
 /* HOISTED */
 );
 
@@ -2776,9 +2722,9 @@ var _hoisted_656 = {
 };
 
 var _hoisted_657 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "total_activos",
+  "for": "valor_vehiculo_2",
   "class": "form-label"
-}, "Total activos", -1
+}, "Valor comercial", -1
 /* HOISTED */
 );
 
@@ -2787,9 +2733,9 @@ var _hoisted_658 = {
 };
 
 var _hoisted_659 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "total_pasivos",
+  "for": "otros_activos",
   "class": "form-label"
-}, "Total pasivos", -1
+}, "Otros activos", -1
 /* HOISTED */
 );
 
@@ -2798,19 +2744,41 @@ var _hoisted_660 = {
 };
 
 var _hoisted_661 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "total_activos",
+  "class": "form-label"
+}, "Total activos", -1
+/* HOISTED */
+);
+
+var _hoisted_662 = {
+  "class": "col-md-3"
+};
+
+var _hoisted_663 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "total_pasivos",
+  "class": "form-label"
+}, "Total pasivos", -1
+/* HOISTED */
+);
+
+var _hoisted_664 = {
+  "class": "col-md-3"
+};
+
+var _hoisted_665 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "for": "total_patrimonio",
   "class": "form-label"
 }, "Total patrimonio", -1
 /* HOISTED */
 );
 
-var _hoisted_662 = {
+var _hoisted_666 = {
   "class": "d-grid gap-2 d-md-flex justify-content-md-end"
 };
 
-var _hoisted_663 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Anterior ");
+var _hoisted_667 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Anterior ");
 
-var _hoisted_664 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Siguiente ");
+var _hoisted_668 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Siguiente ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
@@ -2926,9 +2894,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
       return $data.datos.tipo_bienes_1 = $event;
     })
-  }, [_hoisted_23, _hoisted_24, _hoisted_25], 544
+  }, [_hoisted_23], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_26, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_28, [_hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "direccion_bienes_1",
@@ -2943,15 +2911,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     readonly: ""
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.direccion_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_30, [_hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", _hoisted_33, [_hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.direccion_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", _hoisted_35, [_hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[21] || (_cache[21] = function ($event) {
       return $data.direccionBienes1.address_main_str = $event;
     }),
     "class": "form-control custom-select",
     required: ""
-  }, [_hoisted_38], 512
+  }, [_hoisted_40], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_str]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_125, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_126, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_str]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_128, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -2963,21 +2931,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_128, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_129, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_130, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[23] || (_cache[23] = function ($event) {
       return $data.direccionBienes1.address_main_letr1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_129], 512
+  }, [_hoisted_131], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_letr1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_147, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_letr1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_148, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
       return $data.direccionBienes1.address_main_crdpnt1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_148], 512
+  }, [_hoisted_150], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_crdpnt1]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_153, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_154, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_155, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_156, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_crdpnt1]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_155, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_156, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_157, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_158, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -2989,22 +2957,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_157, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_158, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_159, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
       return $data.direccionBienes1.address_main_letr2 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_159], 512
+  }, [_hoisted_161], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_letr2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_176, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_177, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_letr2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_178, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_179, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[27] || (_cache[27] = function ($event) {
       return $data.direccionBienes1.address_main_crdpnt2 = $event;
     }),
     "class": "form-control",
     placeholder: "NORTE"
-  }, [_hoisted_178], 512
+  }, [_hoisted_180], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_crdpnt2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_183, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_184, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_185, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_main_crdpnt2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_185, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_186, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_187, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -3016,14 +2984,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num3]])])])])]), _hoisted_186, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_187, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_188, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_189, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_main_num3]])])])])]), _hoisted_188, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_189, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_190, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_191, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[29] || (_cache[29] = function ($event) {
       return $data.direccionBienes1.address_compl_compl1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_190], 512
+  }, [_hoisted_192], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_227, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_228, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_229, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_230, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[30] || (_cache[30] = function ($event) {
       return $data.direccionBienes1.address_compl_compl2 = $event;
@@ -3031,14 +2999,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_229, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_230, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_231, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_231, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_232, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_233, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[31] || (_cache[31] = function ($event) {
       return $data.direccionBienes1.address_compl_compl21 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_232], 512
+  }, [_hoisted_234], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl21]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_269, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_270, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl21]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_271, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_272, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
       return $data.direccionBienes1.address_compl_compl22 = $event;
@@ -3046,14 +3014,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl22]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_271, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_272, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_273, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl22]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_273, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_274, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_275, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[33] || (_cache[33] = function ($event) {
       return $data.direccionBienes1.address_compl_compl31 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_274], 512
+  }, [_hoisted_276], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl31]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_311, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_312, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes1.address_compl_compl31]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_313, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_314, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[34] || (_cache[34] = function ($event) {
       return $data.direccionBienes1.address_compl_compl32 = $event;
@@ -3061,16 +3029,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl32]])])])]), _hoisted_313, _hoisted_314, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_315, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_316, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_317, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_str) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_letr1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_crdpnt1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_letr2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_crdpnt2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num3) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl21) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl22) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl31) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl32), 1
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes1.address_compl_compl32]])])])]), _hoisted_315, _hoisted_316, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_317, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_318, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_319, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_str) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_letr1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_crdpnt1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_letr2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_crdpnt2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_main_num3) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl21) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl22) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl31) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes1.address_compl_compl32), 1
   /* TEXT */
-  )])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_318, [_hoisted_319, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  )])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_320, [_hoisted_321, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
     "class": "btn btn-primary",
     "data-bs-dismiss": "modal",
     onClick: _cache[35] || (_cache[35] = function () {
       return $options.direccionGuardar && $options.direccionGuardar.apply($options, arguments);
     })
-  }, "Guardar")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_320, [_hoisted_321, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  }, "Guardar")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_322, [_hoisted_323, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "ciudad_bienes_1",
@@ -3082,7 +3050,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.ciudad_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_322, [_hoisted_323, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.ciudad_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_324, [_hoisted_325, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "valor_bienes_1",
@@ -3094,7 +3062,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_324, [_hoisted_325, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_bienes_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_326, [_hoisted_327, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "tipo_bienes_2",
     "class": "form-select",
     onChange: _cache[40] || (_cache[40] = function () {
@@ -3103,9 +3071,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[41] || (_cache[41] = function ($event) {
       return $data.datos.tipo_bienes_2 = $event;
     })
-  }, [_hoisted_326, _hoisted_327, _hoisted_328], 544
+  }, [_hoisted_328], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_329, [_hoisted_330, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_333, [_hoisted_334, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "direccion_bienes_2",
@@ -3120,15 +3088,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     readonly: ""
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.direccion_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_331, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_332, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_333, [_hoisted_334, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_335, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", _hoisted_336, [_hoisted_337, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_338, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_339, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_340, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.direccion_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_335, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_336, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_337, [_hoisted_338, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_339, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", _hoisted_340, [_hoisted_341, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_342, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_343, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_344, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[44] || (_cache[44] = function ($event) {
       return $data.direccionBienes2.address_main_str = $event;
     }),
     "class": "form-control custom-select",
     required: ""
-  }, [_hoisted_341], 512
+  }, [_hoisted_345], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_str]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_428, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_429, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_str]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_432, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_433, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -3140,21 +3108,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_430, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_431, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_434, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_435, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[46] || (_cache[46] = function ($event) {
       return $data.direccionBienes2.address_main_letr1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_432], 512
+  }, [_hoisted_436], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_letr1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_449, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_450, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_letr1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_453, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_454, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[47] || (_cache[47] = function ($event) {
       return $data.direccionBienes2.address_main_crdpnt1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_451], 512
+  }, [_hoisted_455], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_crdpnt1]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_456, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_457, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_458, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_459, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_crdpnt1]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_460, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_461, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_462, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_463, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -3166,22 +3134,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_460, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_461, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_464, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_465, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[49] || (_cache[49] = function ($event) {
       return $data.direccionBienes2.address_main_letr2 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_462], 512
+  }, [_hoisted_466], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_letr2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_479, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_480, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_letr2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_483, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_484, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[50] || (_cache[50] = function ($event) {
       return $data.direccionBienes2.address_main_crdpnt2 = $event;
     }),
     "class": "form-control",
     placeholder: "NORTE"
-  }, [_hoisted_481], 512
+  }, [_hoisted_485], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_crdpnt2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_486, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_487, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_488, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_main_crdpnt2]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_490, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_491, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_492, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "number",
     min: "1",
     max: "999",
@@ -3193,14 +3161,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num3]])])])])]), _hoisted_489, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_490, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_491, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_492, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_main_num3]])])])])]), _hoisted_493, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_494, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_495, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_496, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[52] || (_cache[52] = function ($event) {
       return $data.direccionBienes2.address_compl_compl1 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_493], 512
+  }, [_hoisted_497], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_530, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_531, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl1]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_534, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_535, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[53] || (_cache[53] = function ($event) {
       return $data.direccionBienes2.address_compl_compl2 = $event;
@@ -3208,14 +3176,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_532, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_533, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_534, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl2]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_536, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_537, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_538, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[54] || (_cache[54] = function ($event) {
       return $data.direccionBienes2.address_compl_compl21 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_535], 512
+  }, [_hoisted_539], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl21]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_572, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_573, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl21]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_576, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_577, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[55] || (_cache[55] = function ($event) {
       return $data.direccionBienes2.address_compl_compl22 = $event;
@@ -3223,14 +3191,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl22]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_574, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_575, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_576, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl22]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_578, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_579, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_580, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     "onUpdate:modelValue": _cache[56] || (_cache[56] = function ($event) {
       return $data.direccionBienes2.address_compl_compl31 = $event;
     }),
     "class": "form-control custom-select"
-  }, [_hoisted_577], 512
+  }, [_hoisted_581], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl31]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_614, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_615, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.direccionBienes2.address_compl_compl31]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_618, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_619, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "onUpdate:modelValue": _cache[57] || (_cache[57] = function ($event) {
       return $data.direccionBienes2.address_compl_compl32 = $event;
@@ -3238,16 +3206,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-control"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl32]])])])]), _hoisted_616, _hoisted_617, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_618, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_619, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_620, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_str) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_letr1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_crdpnt1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_letr2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_crdpnt2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num3) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl21) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl22) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl31) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl32), 1
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.direccionBienes2.address_compl_compl32]])])])]), _hoisted_620, _hoisted_621, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_622, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_623, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_624, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_str) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_letr1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_crdpnt1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_letr2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_crdpnt2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_main_num3) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl1) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl2) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl21) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl22) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl31) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.direccionBienes2.address_compl_compl32), 1
   /* TEXT */
-  )])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_621, [_hoisted_622, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  )])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_625, [_hoisted_626, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
     "class": "btn btn-primary",
     "data-bs-dismiss": "modal",
     onClick: _cache[58] || (_cache[58] = function () {
       return $options.direccion2Guardar && $options.direccion2Guardar.apply($options, arguments);
     })
-  }, "Guardar")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_623, [_hoisted_624, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  }, "Guardar")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_627, [_hoisted_628, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "ciudad_bienes_2",
@@ -3259,7 +3227,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.ciudad_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_625, [_hoisted_626, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.ciudad_bienes_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_629, [_hoisted_630, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "valor_bienes_2",
@@ -3271,7 +3239,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_bienes_2]])]), _hoisted_627, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_628, [_hoisted_629, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_bienes_2]])]), _hoisted_631, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_632, [_hoisted_633, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "tipo_vehiculo_1",
     "class": "form-select",
     onChange: _cache[63] || (_cache[63] = function () {
@@ -3280,9 +3248,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[64] || (_cache[64] = function ($event) {
       return $data.datos.tipo_vehiculo_1 = $event;
     })
-  }, [_hoisted_630, _hoisted_631, _hoisted_632], 544
+  }, [_hoisted_634, _hoisted_635, _hoisted_636], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_633, [_hoisted_634, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_637, [_hoisted_638, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "marca_vehiculo_1",
@@ -3294,7 +3262,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.marca_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_635, [_hoisted_636, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.marca_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_639, [_hoisted_640, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "modelo_vehiculo_1",
@@ -3306,7 +3274,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.modelo_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_637, [_hoisted_638, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.modelo_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_641, [_hoisted_642, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "placa_vehiculo_1",
@@ -3318,7 +3286,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.placa_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_639, [_hoisted_640, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.placa_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_643, [_hoisted_644, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "valor_vehiculo_1",
@@ -3330,7 +3298,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_641, [_hoisted_642, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_vehiculo_1]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_645, [_hoisted_646, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     id: "tipo_vehiculo_2",
     "class": "form-select",
     onChange: _cache[73] || (_cache[73] = function () {
@@ -3339,9 +3307,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[74] || (_cache[74] = function ($event) {
       return $data.datos.tipo_vehiculo_2 = $event;
     })
-  }, [_hoisted_643, _hoisted_644, _hoisted_645], 544
+  }, [_hoisted_647, _hoisted_648, _hoisted_649], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_646, [_hoisted_647, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.datos.tipo_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_650, [_hoisted_651, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "marca_vehiculo_2",
@@ -3353,7 +3321,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.marca_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_648, [_hoisted_649, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.marca_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_652, [_hoisted_653, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "modelo_vehiculo_2",
@@ -3365,7 +3333,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.modelo_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_650, [_hoisted_651, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.modelo_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_654, [_hoisted_655, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "placa_vehiculo_2",
@@ -3377,7 +3345,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.placa_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_652, [_hoisted_653, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.placa_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_656, [_hoisted_657, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "valor_vehiculo_2",
@@ -3389,7 +3357,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_654, [_hoisted_655, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.valor_vehiculo_2]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_658, [_hoisted_659, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "otros_activos",
@@ -3401,7 +3369,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.otros_activos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_656, [_hoisted_657, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.otros_activos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_660, [_hoisted_661, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "total_activos",
@@ -3413,7 +3381,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_activos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_658, [_hoisted_659, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_activos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_662, [_hoisted_663, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "total_pasivos",
@@ -3425,7 +3393,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_pasivos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_660, [_hoisted_661, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_pasivos]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_664, [_hoisted_665, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
     type: "text",
     "class": "form-control",
     id: "total_patrimonio",
@@ -3437,7 +3405,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_patrimonio]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_662, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.datos.total_patrimonio]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_666, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "class": "btn btn-primary me-md-2",
     to: {
       name: 'Economica'
@@ -3446,7 +3414,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
         name: "caret-back-outline"
-      }), _hoisted_663];
+      }), _hoisted_667];
     }),
     _: 1
     /* STABLE */
@@ -3458,7 +3426,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_664, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+      return [_hoisted_668, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
         name: "caret-forward-outline"
       })];
     }),

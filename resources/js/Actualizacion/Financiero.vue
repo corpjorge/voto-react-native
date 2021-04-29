@@ -44,9 +44,11 @@
       <div class="col-md-3">
         <label for="tipo_bienes_1" class="form-label">Tipo vivienda</label>
         <select id="tipo_bienes_1" class="form-select" @change="guardarDatos" v-model="datos.tipo_bienes_1">
-          <option value="Casa">Casa</option>
-          <option value="Apto">Apto</option>
-          <option value="Finca">Finca</option>
+            <option value="P">PROPIA</option>
+            <option value="F">FAMILIAR</option>
+            <option value="A">ARRIENDO</option>
+            <option value="I">INMUEBLE CON HIPOTECA</option>
+            <option value="O">OTRA</option>
         </select>
       </div>
 
@@ -442,8 +444,6 @@
             </div>
         </div>
 
-
-
       <div class="col-md-3">
         <label for="ciudad_bienes_1" class="form-label">Ciudad</label>
         <input type="text" class="form-control" id="ciudad_bienes_1" @change="guardarDatos" v-model="datos.ciudad_bienes_1" >
@@ -457,9 +457,11 @@
       <div class="col-md-3">
         <label for="tipo_bienes_2" class="form-label">Tipo vivienda</label>
         <select id="tipo_bienes_2" class="form-select" @change="guardarDatos" v-model="datos.tipo_bienes_2">
-          <option value="Casa">Casa</option>
-          <option value="Apto">Apto</option>
-          <option value="Finca">Finca</option>
+            <option value="P">PROPIA</option>
+            <option value="F">FAMILIAR</option>
+            <option value="A">ARRIENDO</option>
+            <option value="I">INMUEBLE CON HIPOTECA</option>
+            <option value="O">OTRA</option>
         </select>
       </div>
 
